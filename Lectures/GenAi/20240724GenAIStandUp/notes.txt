@@ -1,0 +1,6 @@
+https://openai.com/
+https://platform.openai.com/docs/quickstart
+
+Setting up virtual Environment:
+1. pip install virtualenv 
+2. python -m venv venv 
