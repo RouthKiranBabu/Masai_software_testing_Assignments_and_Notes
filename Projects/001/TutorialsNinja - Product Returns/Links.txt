@@ -1,0 +1,8 @@
+Miro Mind Mapping Issues:
+https://miro.com/app/board/uXjVKkG305c=/?share_link_id=281861098238
+
+Test plan on The Tutorial Ninja Website:
+https://docs.google.com/document/d/18OPQYv9TDB-c2gNkgRkFehz7ZbCiDuBF0NUrH2Obq3k/edit?usp=sharing
+
+Test Cases and Scenarios:
+https://docs.google.com/spreadsheets/d/16g7RfddMA9oxfb7dhVOOuigUR9m6jfQ4VvMWyf3Oki4/edit?usp=sharing
