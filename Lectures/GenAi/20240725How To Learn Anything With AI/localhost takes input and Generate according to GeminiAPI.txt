@@ -1,0 +1,29 @@
+install
+pip3 install -q -U google-generativeai
+
+Gemini API QuickStart
+https://ai.google.dev/gemini-api/docs/quickstart?lang=python
+
+apiKey
+https://aistudio.google.com/app/apikey
+
+Pyfile.py:
+apikey = "AIzaSyCzQ-hvA2HN1VpiZWf29SrXxbJWNU9lZPc"
+import google.generativeai as genai
+import os
+genai.configure(api_key=apikey)
+model = genai.GenerativeModel('gemini-1.5-flash')
+def create_content(cont = None):
+    #response = model.generate_content("Write a story about an AI and magic")
+    response = model.generate_content(cont)
+    return response.text
+
+UserStr.py:
+import pyfile
+import streamlit as st
+st.title("Welcome to Google Gemini")
+st.write("What kind of Task do you Want?")
+txt = st.text_input("Enter task here...")
+if st.button("Get Response!"):
+    res = pyfile.create_content(txt)
+    st.write(res)
