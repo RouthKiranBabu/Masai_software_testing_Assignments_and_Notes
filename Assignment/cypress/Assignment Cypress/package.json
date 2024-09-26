@@ -1,0 +1,14 @@
+{
+  "name": "day1cypress_assignment_package",
+  "version": "1.0.0",
+  "description": "This is an assignment and this txt is written in terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Routh Kiran Babu",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.14.2"
+  }
+}
