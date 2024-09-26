@@ -1,0 +1,5 @@
+Know about the LLD and HLD
+LLD: Low Level Designing
+
+Types of models comes in interview
+most important model is Agile Model
