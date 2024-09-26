@@ -1,0 +1,52 @@
+Single threaded only one task at the time.
+JavaScript is a single threaded, Synchronous and dynamically typed language
+
+Compile time:
+javascript is converted into machine code 
+run time:
+converted into machine code, it will execute
+
+at the vs code at the bottom right we will have the (Go Live) click on it
+
+
+var num = 66;
+var num = 77;
+// var is a keyword to declare the variable and var is a global scope var can be redeclared and it can be re-assigned
+
+let num2 = 77;
+num2 = 88;
+// let num2 = 88; // not creating again
+//let is a keyword to declare the variable and let is a block scope
+// let can be reassigned but not redeclared
+redeclaring example:
+let name = "one";
+let name = "two";
+
+const num3 = 88;
+// const is a keyword to declare the variable const is also block scoped const cant be reassigned or cant be redeclared
+
+const num3 = 88;
+//redeclaration
+const num3 = 66;
+num3 = 99;
+
+Primitive datatypes: 
+Number 
+string
+Boolean
+Big int 
+Null 
+undefined
+Symbol
+
+for big integer at the last we have n
+let bignumber = 454525888888888888888n;
+
+let nullData = null;
+let name;
+//typeof gives the datatype
+console.log(typeof(nullData))
+
+let symboldata = Symbol("Hello")
+
+
