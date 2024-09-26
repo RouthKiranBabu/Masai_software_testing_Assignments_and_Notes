@@ -1,0 +1,13 @@
+Login Functionality:
+1. To verify the Email is in the right syntax.
+2. To verify that password is created by desired letters.
+3. Is the login button working properly.
+4. To verify that forgot password feature is available.
+5. Is create Account feature is available.
+
+Create Account Functionality:
+1. To verify that first name Box entry available or not.
+2. To verify that last name box entry is available or not.
+3. To verify that Email box entry is available or not with given systax.
+4. password box entry is available or not.
+5. To verify create account button is working as expected or not.
