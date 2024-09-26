@@ -1,0 +1,68 @@
+Test case ID,Test scenario,Test case,Pre requisite,Test steps,Test data,Expected Result,Actual Result,Status,Comment
+TC_SF_001,Verify search  functionality,Verify searching with an existing product name,"1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Enter any product name to search text box field 
+2) Click on search icon",samsung ultra 5g,"Searched product should be displayed
+in the search results","Searched product is displayed
+in the search results",Pass,
+TC_SF_002,Verify search  functionality,Verify searching with non existing product name,"1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Enter non- existing product name into the 
+search text box field
+Click search icon ",Fitbit,"""No product that matches
+the search criteria"", should be displayed 
+on search results page",Fitbit is displayed,Fail,
+TC_SF_003,Verify search  functionality,Verify searching without providing any product name,"1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Do not enter anything into the search text box field
+2) Click search icon",NA,"""There should be no product that matches
+the search criteria"", should be displayed 
+on search results page",no error message is displayed,Fail,"No error message is displayed when search text field is blank, please fix asap"
+TC_SF_004,Verify search  functionality,Verify searching for a product with partial input (keywords should be displayed)/auto suggestions should be displayed,"1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Enter product with partial name into search text box field 
+2) Click  search icon
+",mob,Keywords should be displayed ,,,
+TC_SF_005,Verify search  functionality,Verify searching for a product which results in multiple products,"1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Enter the search criteria in search text box field
+which can result in multiple products
+2) Click on button having search icon",samsung ultra 5g,"More than one product should be displayed
+in search results page",,,
+TC_SF_006,Verify Scenario functionality follows UI checklist,"Verify search functionality has 
+placeholder","1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Dont enter anything into search textbox field
+2) Check search functionality has placeholder
+",NA,"Placeholder should be displayed
+",,,
+TC_SF_007,Verify search  functionality,"Verify we can use all the options of search functionality using 
+keyboard keys","1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Press tab and enter keys to perform search operation
+and select several options in the search page",NA,User should be able to perform search operation and select several options in the search page using keyboard keys tab and enter,,,
+TC_SF_009,Verify Scenario functionality ,"Verify the search page functionality is working in all the 
+supported environments","1)Open the browser
+2) Enter the URL
+3) Login to the application","1) Click on 'My account' Dropmenu
+2) Clicl on 'Login' option",NA,"Search functionality should work
+correctly in all the supported
+environments",,,
+TC_SF_015,Verify Scenario functionality ,Verify search box placement,,,,,,,
+TC_SF_016,Verify Scenario functionality,Verify search box size(height and width),,,,,,,
+TC_SF_017,Verify Scenario functionality,Verify search box colors,,,,,,,
+TC_SF_018,Verify Scenario functionality,Verify search box alignment,,,,,,,
+TC_SF_019,Verify Scenario functionality,Verify search results are paginated if results are more than 1 page,,,,,,,
+TC_SF_020,Verify Scenario functionality,"Verify for invalid keyword search(special characters, space etc)",,,,,,,
+TC_SF_021,Verify Scenario functionality,Verify for multi language support,,,,,,,
+TC_SF_022,Verify Scenario functionality,"Verify for logical keywords along with search keywords(AND, OR, <,> )",,,,,,,
+TC_SF_023,Verify Scenario functionality,"Verify by refreshing the page after searching a product,check if same results are displayed or not",,,,,,,
+TC_SF_024,Verify Scenario functionality,"Verify by browsing back and forward the page after searching, check if same results are displayed or not",,,,,,,
+TC_SF_025,Verify Scenario functionality,Verify search functionality response time with wifi network,,,,,,,
+TC_SF_026,Verify Scenario functionality,Verify search functionality response time with mobile  network,,,,,,,
+TC_SF_027,Verify Scenario functionality,Verify search functionality response time when battery is over 90%,,,,,,,
+TC_SF_028,Verify Scenario functionality,Verify search functionality response time with battery when it is lower than 10%,,,,,,,
+TC_SF_029,Verify Scenario functionality,Verify auto-complete with relevant keywords,,,,,,,
+TC_SF_030,Verify Scenario functionality,"Verify search functionality should be able to auto correct if there is spelling
+mistake in the information entered",,,,,,,
+,,"Verify when searched for a popular product, pagination is displayed",,,,,,,

@@ -1,0 +1,84 @@
+Test Plan for Snapdeal Application
+
+1. Introduction
+1.1 Purpose: This test plan outlines the strategy and approach for testing the Snapdeal application to ensure its functionality, performance, and usability meet the defined requirements.
+1.2 Scope: The scope of testing includes the core functionalities of the Snapdeal application, such as user registration, product search, shopping cart, checkout process, payment gateway, and order management.
+1.3 Objectives:
+Verify that the application meets all functional requirements.
+Ensure the application is free of critical defects.
+Validate the performance and security of the application.
+Confirm compatibility across different devices and browsers.
+
+2. Test Strategy
+2.1 Types of Testing:
+Functional Testing: Ensure all features work as intended.
+Regression Testing: Verify that new changes don’t negatively affect existing functionality.
+Performance Testing: Assess the application's responsiveness and stability under load.
+Usability Testing: Evaluate the user interface and experience.
+Compatibility Testing: Confirm the application works across various devices and browsers.
+2.2 Testing Tools:
+Functional Testing: Selenium, TestNG
+Performance Testing: JMeter, LoadRunner
+Security Testing: OWASP ZAP, Burp Suite
+Compatibility Testing: BrowserStack, LambdaTest
+
+3. Test Scope
+3.1 Features to be Tested:
+User Registration & Login: Valid and invalid user registrations, login/logout functionality.
+Product Search: Search by category, keywords, filters, and sorting options.
+Product Details: Viewing product details, images, and reviews.
+Shopping Cart: Adding/removing items, updating quantities, and viewing cart summary.
+Checkout Process: Address entry, shipping options, payment methods, and order confirmation.
+Order Management: Viewing order history, tracking orders, and managing returns.
+3.2 Features Not to be Tested:
+Integration with third-party services (e.g., external APIs) will not be tested in this plan.
+
+4. Test Environment
+4.1 Hardware:
+Servers: [Specify server configurations]
+User Devices: Desktop (Windows, macOS), Mobile (iOS, Android)
+4.2 Software:
+Operating Systems: Windows 10, macOS, iOS 15+, Android 12+
+Browsers: Chrome, Firefox, Safari, Edge
+Database: N/A
+
+5. Test Schedule
+5.1 Milestones:
+Test Planning: [16-08-2024] - [16-08-2024]
+Test Case Design: [16-08-2024] - [17-08-2024]
+Test Execution: [17-08-2024] - [18-08-2024]
+Defect Reporting: Ongoing during test execution
+Test Closure: [16-08-2024] - [20-08-2024]
+
+6. Test Deliverables
+6.1 Test Artifacts:
+Test Plan Document
+Test Cases and Scripts
+Test Data
+Test Execution Reports
+Defect Reports
+Final Test Summary Report
+
+7. Roles and Responsibilities
+7.1 Test Manager:
+Oversee test planning and execution
+Coordinate with stakeholders
+Review and approve test deliverables
+7.2 Test Engineers:
+Design and execute test cases
+Report and track defects
+Collaborate with the development team
+7.3 Product Owner:
+Provide requirements and clarify doubts
+Validate test results and provide feedback
+
+8. Risk and Mitigation
+8.1 Risks:
+Incomplete Requirements: Regular review and clarification sessions with stakeholders.
+Environment Issues: Ensure test environments are stable and reflective of production.
+Testing Delays: Prioritize critical test cases and allocate additional resources if needed.
+
+9. Approval
+Test Plan Prepared by: Vikash kumar
+Approved by: shiva Kumar
+Date of Approval:

@@ -1,0 +1,138 @@
+ Test Cases for Toothbrush:
+
+
+1. Verify that the toothbrush has bristles
+2. Verify that the toothbrush has a handle
+3. Verify that the toothbrush head is small enough to reach all areas of the mouth
+4. Verify that the toothbrush is comfortable to hold
+5. Verify that the toothbrush is easy to move
+6. Verify that the toothbrush effectively removes plaque and food particles
+7. Verify that the toothbrush is gentle on the gums
+8. Verify that the toothbrush has a comfortable grip
+9. Verify that the toothbrush is easy to clean
+10. Verify that the toothbrush has a durable construction
+11. Verify that the toothbrush has a long-lasting battery life (for electric toothbrushes)
+12. Verify that the toothbrush has a convenient travel case
+13. Verify that the toothbrush has a tongue cleaner
+14. Verify that the toothbrush has a built-in timer (for electric toothbrushes)
+15. Verify that the toothbrush has different brushing modes (for electric toothbrushes)
+16. Verify that the toothbrush is eco-friendly
+17. Verify that the toothbrush has biodegradable bristles
+18. Verify that the toothbrush has a recyclable handle
+19. Verify that the toothbrush has minimal packaging
+20. Verify that the toothbrush uses sustainable materials
+21. Verify that the toothbrush has a long lifespan
+22. Verify that the toothbrush can be repaired or replaced easily
+23. Verify that the toothbrush has a non-toxic and hypoallergenic design
+24. Verify that the toothbrush is suitable for sensitive teeth and gums
+25. Verify that the toothbrush is suitable for orthodontic appliances
+26. Verify that the toothbrush is suitable for dental implants
+27. Verify that the toothbrush is suitable for teeth whitening
+28. Verify that the toothbrush has a built-in pressure sensor (for electric toothbrushes)
+29. Verify that the toothbrush has a built-in
+30. Verify that the toothbrush has a comfortable shape for the mouth
+31. Verify that the toothbrush is easy to use for people with arthritis
+32. Verify that the toothbrush is easy to use for people with limited dexterity
+33. Verify that the toothbrush has a non-slip handle
+34 Verify that the toothbrush has a tongue cleaner
+35. Verify that the toothbrush has a built-in UV sanitiser (for electric toothbrushes)
+36. Verify that the toothbrush has a travel lock (for electric toothbrushes)
+37. Verify that the toothbrush has a rechargeable battery (for electric toothbrushes)
+38. Verify that the toothbrush has a battery level indicator (for electric toothbrushes)
+39. Verify that the toothbrush has a customisable brushing experience (for electric toothbrushes)
+40. Verify that the toothbrush has a built-in timer for brushing teeth
+41. Verify that the toothbrush has a built-in timer for brushing the tongue
+42. Verify that the toothbrush has a built-in timer for brushing gums
+43. Verify that the toothbrush has a pressure sensor to prevent over-brushing
+44. Verify that the toothbrush has a feature to track brushing habits
+45. Verify that the toothbrush has a feature to track brushing history
+46. Verify that the toothbrush has a feature to set reminders for brushing teeth
+47. Verify that the toothbrush has a feature to set reminders for replacing the toothbrush head
+48. Verify that the toothbrush has a feature to track the life of the toothbrush head
+
+
+Test Cases for Laptop:
+
+1. Power on/off: Verify the laptop turns on and off properly.
+2. Display: Test the display's brightness, contrast, and colour accuracy.
+3. Keyboard: Verify all keys work correctly and register proper keystrokes.
+4. Touchpad: Test the touchpad's responsiveness and gesture recognition.
+5. Processor: Run benchmarks to test the processor's performance.
+6. Memory: Test the RAM's capacity and speed.
+7. Storage: Verify the hard drive or SSD's storage capacity and data transfer speed.
+8. Graphics: Test the graphics card's performance with games or graphics-intensive programs.
+9. Battery Life: Test the battery's life and charging time.
+10. Ports: Verify all ports (USB, HDMI, ThanderBolt, SDcard) work correctly.
+11. Connectivity: Test Wi-Fi, Bluetooth, and Ethernet connectivity.
+12. Audio: Test the speakers and headphone jack's sound quality.
+13. Webcam: Test the webcam's video and audio quality.
+14. Microphone: Test the microphone's audio quality.
+15. Durability: Test the laptop's build quality and durability.
+16. Heat Management: Test the laptop's temperature and cooling system.
+17. Noise Level: Test the laptop's fan noise level.
+18. User Experience: Test the laptop's overall user experience and performance.
+19. Compatibility: Test the laptop's compatibility with different software and hardware.
+20. Security: Test the laptop's security features and biometric authentication.
+
+Test Cases for Pen:
+
+1. Write with the pen on paper to verify it writes smoothly and consistently.
+2. Test the pen on different types of paper notebooks, and cardboard to ensure it writes well on various surfaces.
+3. Verify the pen doesn't leak or bleed through paper.
+4. Test the pen's durability by writing continuously for an extended period.
+5. Drop the pen from a reasonable height to ensure it doesn't break or leak.
+6. Verify the pen's ergonomics and comfort by holding and writing with it for an extended period.
+7. Test the pen's clip by attaching and detaching it from a pocket or notebook.
+8. Verify the pen's ink flow consistency by writing at different angles and speeds.
+9. Test the pen's water resistance by exposing it to water or moisture.
+10. Verify the pen's colour consistency by writing with it on different paper types.
+11. Test the pen's tip durability by writing on rough surfaces.
+12. Verify the pen's balance and weight by holding and writing with it.
+13. Test the pen's compatibility with different writing styles
+14. Verify the pen's cleaning and maintenance with water or other solvents.
+15. Test the pen's storage and transportability by placing it in a bag or case.
+
+Test Cases for ATM:
+
+1. Insertion of Card:
+    - Verify card is accepted/rejected correctly
+    - Check card reader functionality
+2. PIN Entry:
+    - Test PIN entry and validation
+    - Check for incorrect PIN error handling
+3. Account Selection:
+    - Verify account selection by checking savings
+    - Check the account balance display
+4. Withdrawal:
+    - Test cash dispensing
+    - Check for insufficient funds error handling
+5. Deposit:
+    - Verify cash acceptance and deposit processing
+    - Check for deposit amount accuracy
+6. Transfer:
+    - Test transfer between accounts
+    - Check for transfer amount accuracy
+7. Balance Inquiry:
+    - Verify account balance display
+    - Check for balance updates after transactions
+8. Mini Statement:
+    - Test transaction history display
+    - Check for statement printing 
+9. Error Handling:
+    - Test error messages for various scenarios card declined, network issue
+    - Check for error recovery and transaction restart
+10. Security:
+    - Verify encryption and secure data transmission
+    - Check for tamper-evident and anti-skimming features
+11. User Interface:
+    - Test screen display and navigation
+    - Check for accessibility features like audio assistance
+12. Network Connectivity:
+    - Verify connection to the bank's server
+    - Check for network failure error handling
+13. Power Management:
+    - Test power-on and power-off functionality
+    - Check for low-power mode and battery backup 
+14. Maintenance:
+    - Verify software update and maintenance mode
+    - Check for error logs and diagnostic tools
