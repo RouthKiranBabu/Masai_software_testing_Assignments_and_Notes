@@ -1,0 +1,14 @@
+In the context of the Software Testing Life Cycle (STLC), the first activity in the **Test Planning Phase** is typically **"Defining the Test Objectives"**. This step involves identifying and clarifying the goals and objectives of the testing process based on the overall project goals and requirements.
+
+Here’s a breakdown of what this initial activity entails:
+
+1. **Defining the Test Objectives**: Establish what the testing effort aims to achieve, such as verifying specific functionalities, ensuring compliance with requirements, or validating performance criteria. Clear objectives help in guiding the subsequent test planning activities and ensure that the testing effort aligns with the project’s goals.
+
+Following this, other key activities in the Test Planning Phase generally include:
+
+2. **Test Plan Development**: Create a comprehensive test plan document outlining the scope, approach, resources, schedule, and deliverables for the testing effort.
+3. **Resource Planning**: Identify and allocate the necessary resources, including testers, tools, and environments.
+4. **Risk Management**: Identify potential risks and develop mitigation strategies.
+5. **Test Strategy Formulation**: Define the overall strategy for testing, including types of testing to be performed (e.g., functional, performance, security), testing levels (e.g., unit, integration, system), and test execution methods.
+
+By clearly defining test objectives at the outset, you ensure that the subsequent planning activities are focused and aligned with what needs to be achieved in the testing process.

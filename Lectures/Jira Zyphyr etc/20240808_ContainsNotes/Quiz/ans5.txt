@@ -1,0 +1,15 @@
+In the Software Testing Life Cycle (STLC), the phase that involves executing test cases and logging defects is the **Execution Phase**. 
+
+Here's a quick breakdown of the phases leading up to and including the Execution Phase:
+
+1. **Requirement Analysis**: Understand and analyze the requirements to determine what needs to be tested.
+2. **Test Planning**: Develop a test plan, including scope, approach, resources, schedule, and test deliverables.
+3. **Test Design**: Design and create test cases, test scripts, and other test documentation based on the requirements and test plan.
+4. **Test Environment Setup**: Prepare the environment in which testing will occur, including hardware, software, and network configurations.
+5. **Execution Phase**:
+   - **Execute Test Cases**: Run the test cases according to the test plan and record the results.
+   - **Log Defects**: If discrepancies or issues are found, log them into a defect tracking system for further analysis and resolution.
+
+6. **Test Closure**: Evaluate cycle completion criteria based on test coverage, quality, cost, time, critical business objectives, etc. Prepare test closure reports and conduct retrospectives if necessary.
+
+In the Execution Phase, testers not only execute the tests but also ensure that any defects or issues are properly documented and communicated to the development team for resolution.

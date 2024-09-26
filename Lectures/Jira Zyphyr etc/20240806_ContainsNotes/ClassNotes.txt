@@ -1,0 +1,13 @@
+In Top down approach, If child module is not present then stubs acts as a substituted module
+In Bottom up approach, If parent module is not present the Driver is the replacement
+
+When it comes to application its difficult for finding parent or child so we test randomly so we go for Non-Incremental Integration Testing
+
+System testing also called as the end to end testing
+
+Smoke testing mostly its takes 2 hours.
+functional is also said as the component in the section when to do Smoke testing.
+
+smoke, sanity testing comes in interview.
+
+Sanity testing is also called as a subset of regression testing.
