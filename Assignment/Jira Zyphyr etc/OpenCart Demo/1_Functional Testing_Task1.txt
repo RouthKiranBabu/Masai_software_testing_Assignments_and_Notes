@@ -1,0 +1,18 @@
+Task 1: Verify that all links on the homepage navigate to the correct pages.
+Pre - requisites: Go to the link [https://demo.opencart.com/].
+Verified:
+1. To verify that Currency(present at top left corner) provides the sub options like:
+a. Euro
+b. Pound Sterling
+c. US Dollar
+[Status: Ok]
+2. To verify that mobile 123456789(Hover only on the symbol and click) takes me to the Contact Us[Status: Ok].
+3. To verify that My Account(Hover over symbol or name) provides two options like:
+a. Register
+b. Login
+3.1. To verify Register(Child of My Account) takes user to Register Account or not.
+3.2. To verify that Login(Child of My Account) takes user to the New Customer or not.
+4. To verify  that Wish List takes me to the New Customer Register Account(Pre-requisites Not Logged in).
+5. To verify Shopping Cart is working Properly or not.
+6. To verify Checkout is working properly or not.
+[both 5 and 6 takes to the same page shopping cart]

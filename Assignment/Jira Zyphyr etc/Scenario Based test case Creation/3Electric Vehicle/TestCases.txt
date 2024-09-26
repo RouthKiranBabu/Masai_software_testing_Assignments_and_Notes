@@ -1,0 +1,5 @@
+Energy Consumption:
+1. To check weather the object only consumes the Electric energy to Work.
+2. To verify whether it works more by using less electric energy.
+3. To verify the Electric Vehicle Does not damage the driver.
+4. To verify the vehicle will protect the driver properly during accident.

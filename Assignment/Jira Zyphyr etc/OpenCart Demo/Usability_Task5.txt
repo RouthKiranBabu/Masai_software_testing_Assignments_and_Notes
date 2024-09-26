@@ -1,0 +1,16 @@
+Navigating through the registration process is easier.
+
+Steps for the registration process:
+1. Go to URL: https://demo.opencart.com/(Copy and paste in rowser).
+2. My Account(Click at top right side)
+3. Register(Click on it)
+4. Enter First Name(eg: 1234, etc).
+5. Enter Last Name(eg: 5678, etc).
+6. Enter E-Mail(eg: 12345678@mail.com, etc).
+7. Enter Password(length from 4 to 20).
+8. Subscribe(Optional).
+9. Privacy Policy(Turn On).
+10. Click on Continue button.
+
+Challenges Faced:
+You can use the email account once any other has chosen the same email before.
