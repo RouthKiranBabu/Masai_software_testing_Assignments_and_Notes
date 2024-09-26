@@ -1,0 +1,254 @@
+Tester need to check:
+1.>Waterfall model:
+In the requirement collection tester has to check is the documentation is correct, missing,
+wrong, duplicate.
+If the customer want to change the requirements it is not possible in the waterfall model
+one the customer said start and cant be stopped by the customer until finished
+
+Disadvantages in the waterfall model:
+1. Backtracking is not possible
+2. Requirement collection and feasibility study is not tested
+3. Downward float of defect will be more
+
+2.> Spiral Model:
+There are four coordinates 
+first quadrant: Requirement collection and feasibility study
+second quadrant: design
+third quadrant: coding 
+fourth quadrant: testing
+there will not disturbance in between and when the testing phase comes there's the testing part
+
+Example we take certain modules like for
+first module about login 
+second module about home page 
+third module about integration of first and second module
+
+where one cycle moves from first quadrant to the fourth quadrant. Once the cycle is done then we can do the 
+
+for each one cycle we need to check the new module and previous module and also testing in form of test 3 and 2, test 3 and 1, for the 
+cycle 4: test module 4, then test 3, test module 2, test module 1, test integration between 4 and 3
+
+Advantages:
+1. initial investment is less
+2. integration between the modules is tested
+3. requirements changes are allowed after every cycle
+Disadvantage:
+1. Requirement and feasibility study is not tested
+2. If there is any requirement change in between the cycle, we cannot do that
+3. Downward flow of defect is more.
+4. Time taken will be to fix these defects, will be more so the budget will be more
+5. Requirements changes are allowed only after the cycles
+6. For every cycle module is incremented.
+7. it is called as incremental model or iteration model
+
+these are developed for the small project where initial investment is less for this requirement collection and feasibility study is not possible where developer and tester is not present here we can actually shows the module to the customers
+
+3.> V model
+customer gives the information to the business analyst 
+CRS - Customer Requirement Specification(document given to the developer and tester)
+For the tester: Review CRS, write acceptance, test plan and test case. in the initial stage only tester and developer is hired first this does not happen in the previous model we need to make sure downward flow of defect must be less.
+If there's any defect then project manager to the customer
+moving down CRS changes to SRS(Software requirement Specification) where the documentation is much simpler and tester does the review SRS, write system tp and tc
+documentation given from customer to the Project Manager(PM) and then to us
+In the HLD(High level) then there will be review in HLD, Write integration tp and tc
+If there's any error then the tester gives to PM(Project Manager) and then to customer and customer and gives document to the PM and again tested by the tester.
+After HLD we have LLD and again Review LLD, write functional tp and tc
+After LLD is coding(he has both requirement documentation and Design)
+for the coding the testing is done in form of white box Testing(unit Testing)
+
+Customer type documentation is from CRS to LLD
+CRS -> SRS -> HLD -> LLD -> Coding is the part of verification 
+
+Next is for the validation which has build -> Build - Small piece of software
+
+white box testing(unit testing) is done by the developers
+
+Functional Testing is done by the software testers
+
+integration testing and system testing is done by tester
+
+User acceptance testing is done by the customers
+
+advantage:
+1. Requirement collection and design is tested 
+2. Downward flow of defect is less
+3. Total time taken is less since testing starts from the early stage itself.
+4. Since testing is done is every stage, the downward flow of defects is less because of this less Reworking and less time consuming.
+5. Requirement changes can be done 
+
+Disadvantages: 
+1. Initial investment is more
+2. documentation is more 
+3. process is complex
+
+White Box Testing
+White box testing, also known as clear box testing or glass box testing, involves examining the internal workings of an application. The tester has access to the internal code and structure of the software, and the testing process focuses on verifying the implementation details. Key aspects include:
+
+Code Coverage: Ensuring that all code paths are tested, including different branches and statements.
+Internal Logic: Verifying the correctness of algorithms and logic used within the code.
+Control Flow Testing: Checking the flow of control through the software to ensure that all possible paths are tested.
+Data Flow Testing: Ensuring that data is correctly manipulated and that variables are used properly throughout the application.
+White box testing is useful for identifying security vulnerabilities, logical errors, and inefficiencies within the code.
+
+Other Types of Testing
+Black Box Testing:
+Definition: Testing without any knowledge of the internal workings or code of the application. The tester focuses on inputs and outputs.
+Types: Functional testing, system testing, acceptance testing.
+Purpose: To validate that the software behaves as expected based on requirements and specifications.
+
+Gray Box Testing:
+Definition: A combination of white box and black box testing. The tester has partial knowledge of the internal code and structure.
+Purpose: To combine the benefits of both white and black box testing, often used in security testing and integration testing.
+
+Unit Testing:
+Definition: Testing individual components or units of code in isolation to ensure they work correctly.
+Purpose: To verify that each unit of the software performs as expected and to catch errors early in the development process.
+
+Integration Testing:
+Definition: Testing the interaction between integrated units or components to ensure they work together as intended.
+Purpose: To identify issues that may arise when different parts of the application interact.
+
+System Testing:
+Definition: Testing the complete and integrated software system to validate its compliance with specified requirements.
+Purpose: To ensure that the overall system meets the defined specifications and behaves as expected in all scenarios.
+
+Acceptance Testing:
+Definition: Testing conducted to determine if the software meets the business requirements and is ready for delivery to the customer.
+Purpose: To ensure that the software is fit for use and meets the end user's needs and expectations.
+
+Regression Testing:
+Definition: Testing to confirm that recent changes or additions to the software have not adversely affected existing functionalities.
+Purpose: To ensure that new code changes do not break or negatively impact the existing features of the application.
+
+Performance Testing:
+Definition: Testing to evaluate how the software performs under various conditions, including load, stress, and scalability.
+Purpose: To ensure that the software meets performance requirements such as response time and stability under high usage.
+
+Security Testing:
+Definition: Testing to identify vulnerabilities, threats, and risks in the software.
+Purpose: To ensure that the software is protected against unauthorized access, data breaches, and other security issues.
+
+Usability Testing:
+Definition: Testing to evaluate how user-friendly, efficient, and intuitive the software is for end users.
+Purpose: To identify areas where the user experience can be improved and to ensure that the software meets user expectations.
+Each type of testing plays a crucial role in ensuring the overall quality and reliability of software applications. By employing a combination of these testing approaches, teams can address different aspects of software quality and deliver a more robust product.
+
+Certainly! Here’s a detailed overview of several software development models, including their advantages and disadvantages:
+
+1. Waterfall Model
+Introduction:
+The Waterfall Model is one of the earliest methodologies in software development. It follows a linear and sequential approach where each phase must be completed before moving on to the next. The typical phases are Requirements, Design, Implementation, Verification, and Maintenance.
+
+Advantages:
+
+Simple and Easy to Understand: Its linear nature makes it straightforward to follow and manage.
+Structured Approach: Clear documentation and milestones help in tracking progress and maintaining a clear scope.
+Ideal for Small Projects: Works well when requirements are well-understood and unlikely to change.
+Disadvantages:
+
+Inflexibility: Hard to accommodate changes once the project has started; changes can be costly.
+Late Testing: Testing starts only after the implementation phase, which may lead to discovering issues late in the process.
+Risk of Incomplete Requirements: Assumes that requirements are fully understood upfront, which may not be realistic for complex projects.
+2. Spiral Model
+Introduction:
+The Spiral Model combines iterative development with the systematic aspects of the Waterfall Model. It emphasizes risk assessment and mitigation through repeated iterations (or spirals) of the development process. Each spiral includes phases of planning, risk analysis, engineering, testing, and evaluation.
+
+Advantages:
+
+Risk Management: Focuses on identifying and addressing risks early and often.
+Iterative Approach: Allows for iterative refinement and continuous improvement.
+Customer Feedback: Frequent reviews and iterations help in incorporating customer feedback.
+Disadvantages:
+
+Complexity: Can be complex to manage due to its iterative nature and multiple phases.
+Costly: Frequent iterations and risk analysis can increase the cost.
+Requires Expertise: Effective implementation requires experienced project managers and developers.
+3. V Model (Verification and Validation Model)
+Introduction:
+The V Model is an extension of the Waterfall Model that emphasizes verification and validation. Each development stage has a corresponding testing phase. The process flows downwards through the stages of development and then upwards for testing and validation.
+
+Advantages:
+
+Early Test Planning: Testing activities are planned in parallel with development, ensuring that requirements are validated early.
+Clear and Structured: Provides a clear structure for testing and development.
+Defect Detection: Defects are identified at each stage of development and testing.
+Disadvantages:
+
+Inflexibility: Similar to Waterfall, it is not ideal for projects with evolving requirements.
+Late Integration: Integration testing is only done after the development phase, which can be problematic if issues are found late.
+Time-Consuming: Can be time-consuming due to the need to complete all development before extensive testing begins.
+4. Agile Model
+Introduction:
+The Agile Model is an iterative and incremental approach that promotes flexibility and customer collaboration. Agile methodologies, such as Scrum and Kanban, emphasize adaptive planning, evolutionary development, and rapid delivery.
+
+Advantages:
+
+Flexibility: Adapts to changing requirements and allows for frequent updates.
+Customer Collaboration: Frequent interaction with stakeholders ensures the product meets their needs.
+Rapid Delivery: Incremental releases provide working software quickly and frequently.
+Disadvantages:
+
+Scope Creep: Frequent changes can lead to scope creep if not managed properly.
+Requires Collaboration: Requires continuous communication and collaboration, which can be challenging.
+Less Predictability: Can be difficult to predict costs and timelines accurately.
+5. Iterative Model
+Introduction:
+The Iterative Model involves developing a system through repeated cycles (iterations). Each iteration produces a version of the software, allowing for improvements based on feedback and evolving requirements.
+
+Advantages:
+
+Early Delivery: Provides partial working software early in the development process.
+Flexibility: Allows for changes and refinements based on user feedback and evolving requirements.
+Risk Management: Risks are identified and addressed incrementally.
+Disadvantages:
+
+Requires Management: Requires careful management of iterations to avoid scope creep and ensure that the project stays on track.
+Potential for Overlap: Iterations might lead to overlapping features and redundancy.
+Resource Intensive: Can be resource-intensive due to the need for frequent iterations and updates.
+6. Other Types of Models
+a. Incremental Model:
+
+Introduction:
+The Incremental Model divides the software into smaller, manageable parts or increments. Each increment builds on the previous one, with new features added progressively.
+
+Advantages:
+
+Early Partial Deployment: Provides partial functionality early, which can be useful for user feedback.
+Flexible: Changes can be made in subsequent increments.
+Reduced Risk: Issues can be identified and addressed in earlier increments.
+Disadvantages:
+
+Integration Issues: Integration of increments can become complex as the system grows.
+Requires Continuous Feedback: Needs constant user feedback to ensure each increment aligns with requirements.
+Potential for Redundancy: Increments may result in redundant work or overlapping functionality.
+b. RAD (Rapid Application Development) Model:
+
+Introduction:
+RAD emphasizes rapid prototyping and iterative development with user feedback. It involves developing prototypes quickly and refining them based on user feedback.
+
+Advantages:
+
+Rapid Delivery: Provides quick delivery of prototypes and early versions.
+User Involvement: Frequent user feedback helps in creating a product that meets user needs.
+Flexibility: Adaptable to changes and new requirements.
+Disadvantages:
+
+Quality Concerns: Speed can sometimes lead to lower quality and less thorough documentation.
+Requires Skilled Developers: Effective prototyping requires experienced developers.
+Not Suitable for Large Projects: May not be ideal for large-scale projects due to complexity and coordination issues.
+c. DevOps Model:
+
+Introduction:
+DevOps is a culture and set of practices that integrates software development (Dev) and IT operations (Ops) to enhance collaboration and productivity. It emphasizes continuous integration, continuous delivery (CI/CD), and automation.
+
+Advantages:
+
+Continuous Delivery: Enables frequent releases and faster time-to-market.
+Improved Collaboration: Enhances collaboration between development and operations teams.
+Automation: Automates repetitive tasks and reduces manual errors.
+Disadvantages:
+
+Requires Cultural Change: May require significant changes in team culture and processes.
+Tool Complexity: Involves complex tooling and infrastructure setup.
+Potential for Overload: Continuous changes and deployments can lead to operational overload if not managed properly.
+Each of these models has its own strengths and weaknesses, and the choice of model often depends on the specific needs of the project, the team, and the stakeholders involved.
