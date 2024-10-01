@@ -1,0 +1,15 @@
+{
+  "name": "firstpack",
+  "version": "1.0.0",
+  "description": "This is description.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Routh Kiran Babu",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.0",
+    "cypress": "^13.15.0"
+  }
+}
