@@ -1,0 +1,43 @@
+Purpose of java collections framework:
+    1. Data Structure Management: we can create various data structures like lists, sets, queues, maps.
+    2. Efficiency: Its also offers efficient algorithm like sorting, searching, insertion and deletion.
+    3. Various Methods: Use full methods like addAll(), sort() etc available.
+    4. Easy conversion: Easy conversion between different types of collections.
+
+Some of the main interfaces:
+    1. Collection: This is the root interface for most of the framework like list, set and queue.
+    2. List: Collection of elements where elements are accessed by reference like index.
+        CODE:   List<String> myList = new ArrayList<>();
+                myList.add("A");
+                myList.add("B");
+                System.out.println(myList.get(0)); // Outputs "A"
+    3. Set: Only unique elements are present in this collection.
+        CODE:   Set<String> mySet = new HashSet<>();
+                mySet.add("A");
+                mySet.add("B");
+                mySet.add("A"); // Duplicate "A" will be ignored
+    4. Queue: It fallows FIFO(First In First Out).
+        CODE:   Queue<String> queue = new LinkedList<>();
+                queue.add("Task 1");
+                queue.add("Task 2");
+                System.out.println(queue.poll()); // Outputs "Task 1"
+    5. Map: Collection of key and value pairs.
+        CODE:   Map<String, Integer> map = new HashMap<>();
+                map.put("A", 1);
+                map.put("B", 2);
+                System.out.println(map.get("A")); // Outputs 1
+    6. SortedSet: Special set that fallows sorted order.
+        CODE:   SortedSet<Integer> sortedSet = new TreeSet<>();
+                sortedSet.add(10);
+                sortedSet.add(5);
+                sortedSet.add(20);
+                System.out.println(sortedSet); // Outputs [5, 10, 20]
+    7. SortedMap: Map where key is maintained in Acending Order.
+        CODE:   SortedMap<Integer, String> sortedMap = new TreeMap<>();
+                sortedMap.put(2, "B");
+                sortedMap.put(1, "A");
+                System.out.println(sortedMap); // Outputs {1=A, 2=B}
+
+Benefits of Java Collection Framework:
+    1. Data structures like ArrayList, HashMap, and LinkedList save developers from writing complex, error-prone code.
+    2. By handling collections (sorting, searching), code becomes more maintainable, reliable, and readable.
