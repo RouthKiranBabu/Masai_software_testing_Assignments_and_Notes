@@ -1,3 +1,5 @@
+# Java Notes:
+  - https://masai-curriculum-framework.notion.site/Java-Notes-16470c37ca4a44948cdb8dd08cadd302
 #Interview https://docs.google.com/document/d/1Jf3gEZIAUbL9NzThTcaZ67w458onBBAdxQdVGnOb3qI/edit https://docs.google.com/document/d/1ijxcrrYVRu2Id7kekH8ARF0BUQaDIbJkZM-WgRfHwhU/edit
 
 Masai-School
