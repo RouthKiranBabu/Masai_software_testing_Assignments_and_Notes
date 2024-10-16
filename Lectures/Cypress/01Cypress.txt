@@ -1,0 +1,80 @@
+Cypress is the front-end automation testing tool especially developed for modern web application.
+
+web development using html, css and javascript used traditional web application.
+
+modern web application uses latest javascript frameworks like we have react js and angular js
+
+modern web application can be tested using features present in cypress.
+
+cypress tests or automate any application which runs on browser
+
+cypress uses javascript as a programming like selenium which supports java.
+
+It will not use selenium libraries, and cypress is open source and there's component like cypress runner and cypress dashboard 
+
+by using cypress runner we can install cypress and we can write automation tests schemes we can run our automation test scripts there is one more feature available that is cypress dashboard which belongs to paid section
+So finally Testrunner is free but the Dashboard is paid.
+
+cypress is basically built on node.js environment, when we want to install any java application we need JRE(Java Runtime Error) in run time environment we can develop or we can exude any java based projects or java based application similarly cypress works on top of node.js environment
+it comes packaged as npm module which is basically available in npm module available in npm model(npm = node package manager) 
+
+when working with java maven projects we have a maven global repository whenever the dependencies we required we will just add dependencies in the pom.xml so we get all the dependencies from the maven repository similarly in the node environment we have something called npm node package manager so from this npm we will able to get whateven the libraries we want
+
+typescript is developed on top of javascript it does not uses any zillion libraries as an underlying layer its totally different from selenium and it is open source
+
+cypress runs on node.js environment before hand developers used  the cypress as the testing tool due to lots of features QA engineers started using cypress
+
+cypress is designed for end to end test automation so we can automate end-to-end test cases, we can use cypress to automate integration tests so we want to automate integration test cases, and we can automate unit test cases and API testing
+Developers and QA can use the cypress
+
+1. Application support
+Selenium: Only web
+cypress: web and api
+2. Cost
+Selenium: Free
+Cypress: Test Runner is free but dashboard is paid
+2. Languages
+Selenium: Java, Python, Ruby, C#, JavaScript
+Cypress: JavaScript, TypeScript
+3. Browsers
+Selenium: Chrome, Edge, Firefox, Safari, Opera and IE11
+Cypress: Chrome, Edge, Firefox and Electron
+4. Frameworks Support
+Selenium: Junit, TestNG, pyTest etc. based on programming language.
+Cypress: Mocha JS
+5. Performance
+Selenium: Runs outside of the browser, so performance is Slow when compare with cypress.
+Cypress: Faster since it runs inside of the browser.
+6. Reporting
+Selenium: integrate with Extent, Allure etc.
+Cypress: Mocha reporters, Cypress dashboard.
+
+Cypress ecosystem
+1. Test Runner --- open source, locally installed
+2. Dashboard - paid
+
+Features of cypress
+1. Time travel - once you executed your test cases all the steps will be successfully executed, at the time of executing the test cases then cypress will take the snapshot of every run 
+for every line code execution cypress will capture the screen shot it maintains the history if we want to navigate to back or move forward we can easily do that called time travel
+eg: Suppose you have executed 10 steps and currently you are in seventh step now i want to repeat the previous step once again
+2. Debuggability - if you go with the selenium or any other automation tools if any test cases got failed normally what we will do is we will debug the code every method every function or every line we will try to debug but here cypress is having access of all the dev tools because cypress is running in the same browser internally so which will be able to access everything from the dev tools so the debugging is very easy so if something is got fail somewhere immediately we can cross check there itself without rerunning the code so that facility is available in cypress which is basically called debug ability so it is easy to debug the test when comparing with other automation tools
+3. Automatic Waits (built-in waits) - when we are trying to interact with the elements on web page sometimes we get the synchronization problems(page will loading very slowly or some time element may not be available when you are trying to perform some action sometimes elements will be invisible or sometimes the elements will be disabled state sometimes when you are clicking on the link still that link is not available or sometimes the elements are detached from the DOM structure throws an error if you have these type of errors) so there will be a synchronization problem means what you skipped execution is faster than your application response
+So if you go with selenium so where we will use certain number of weight statements like implicit weight explicit weight fluid weight so there are multiple waiting mechanisms we have to use them in our automation script but in cypress there is a default waiting time for everything it will automatically wait for the element or page or everything so we dont need to write any weight commands explicitly in your automation test cases and that is the biggest advantage of using cypress and next is we will get the consistent results so this is the problem is other automation tools like selenium cypress is running inside the browser that is the major advantage of the cypress but in selenium ours tests are running outside the browser
+5. Screenshots and videos will automatically capture whenever you run your test cases if something is got failed the screenshot will automatically capture and test cases can be recorded in the video format and these features are inbuilt in cypress
+6. Which will also support cross browser testing - to run our test cases on multiple browsers like whatever browser the cypress is supported and we can run them locally or we can run remotely by using Jenkins or any other ci cd tools so these are the main features of cypress
+
+Limitations:
+1. We cant automate window based/ Mobile app
+2. Limited Supports
+3. Supports only javascript/typescript
+4. Reading/Writing data into files is difficult
+5. Third party reporting tool integration is also limited
+
+Official Webpage:
+cypress.io
+
+Cypress App is nothing but test runner.
+Cypress Dashboard is where all the run results will be maintained and all the recorded tests will be maintained in the dashboard this is the paid feature
+
+Guide to cypress:
+https://docs.cypress.io/guides/overview/why-cypress

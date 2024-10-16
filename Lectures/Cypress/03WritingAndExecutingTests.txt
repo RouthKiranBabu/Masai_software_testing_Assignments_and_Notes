@@ -1,0 +1,104 @@
+cypress folder has -> e2e folder for end to end testing folder
+
+spec file is the specification file
+
+to open the cypress -> npx cypress open
+Then select -> E2E testing
+Then Choose the Browser -> Chrome
+Then click on -> Start E2E
+Under Specs -> 
+	-> Scaffold example specs: Which has example specs given by Cypress.
+	-> Create new Empty spec
+Then click on -> Create new Empty spec
+(You can give any name to the specification file but the extension should be .cy.js)
+Then name the file as -> "mytest.cy.js"
+The click on -> Create spec
+(where sample code is automatically created)
+Then close it
+
+You don't have to create by using interface. We can do it in VS Code.
+so delete the mytest.cy.js file present in e2e folder.
+In e2e folder we are going to create all the specification files.
+Inside the e2e folder lets create the specification file -> "myFirstTest.cy.js"
+(This file also reflected in the cypress to check that do the following:)
+open the new terminal in the VS Code
+type -> npx cypress open
+select -> end to end
+browser -> chrome then start
+So under the spec you can check the same file exists
+
+once you click on the file it starts executing so need to write script in before hand.
+
+Inside the describe where we provide the suite name bracket() represents the function
+describe('suite name', () => {
+})
+describe can have multiple it block
+it block is shown below
+it("Test1", () => {
+	expect(true).to.equal(true)
+})
+
+So finally
+describe('suite name', () => {
+	it("Test1", () => {
+		expect(true).to.equal(true)
+	})
+	it("Test2", () => {
+		expect(true).to.equal(true)
+	})
+	it("Test3", () => {
+		expect(true).to.equal(true)
+	})
+})
+
+Or the other syntax:
+describe ("Suite name", function(){
+	it("test1", function(){
+			expect(true).to.equal(true)
+	})
+})
+
+OrangeHRM Website: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Inside the myFirstTest.cy.js which is present in e2e folder
+The below code is example of the assertion
+cy.title().should("eq", "OrangeHRM")
+"eq" for the equal
+title() is the method
+code:
+describe("my First Test", () => {
+it("test1 - Verify Title - Positive Test", () => {
+	cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+	cy.title().should('eq', "OrangeHRM")
+})
+it("test2 - Verify Title - Negative Test", () => {
+	cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+	cy.title().should('eq', "OrangeHRM1231")
+})
+})
+
+Now to run the cypress use the following command:
+npx cypress open
+Then for the second negative test we got assertion error.
+
+to run the test without opening the cypress use the following code:
+npx cypress run
+(By default it fallows the headless mode because we can see any UI)
+
+If you wanted to see the test in the headed mode:
+npx cypress run --headed
+(Which is headless and headed mode)
+
+by the (npx cypress run) command all the files present in the e2e folder will run.
+Now to execute the specific file use the following command:
+npx cypress run --spec cypress/e2e/MyFirstTest.cy.js
+(which runs in the headless mode)
+if you look carefully by default browser is Electron 102(Headless)
+
+To run the test in the specific browser use the following command:
+npx cypress run --browser chrome
+
+Now to see the chrome browser in the headed mode
+npx cypress run --browser chrome --headed
+
+test Suite has -> Test Case has -> Test Steps

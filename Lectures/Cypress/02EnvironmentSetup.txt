@@ -1,0 +1,26 @@
+1. Download and install nodejs
+2. Download and install visual studio code(VS Code)
+3. Create a new folder for project and open in VS Code
+4. Open cmd/terminal then execute below command
+npm -i init --> creates package.json file
+5. To install cypress
+npm install cypress --save -dev
+6. Start cypress
+npx cypress open (or)
+node_modules/.bin/cypress open
+
+-------------------------
+0. Create the folder and open in the VS code
+1. Open the terminal -> New Terminal
+2. For creating json file type -> npm -i init
+3. During Execution package name is -> cypressAutomation
+4. You can add the description
+5. You can add author -> Your name
+6. Ask for confirmation -> type yes
+7. To install cypress -> npm install cypress --save -dev
+8. To start cypress type -> npx cypress open
+(Your project name is written at the top left corner)
+E2E testing is said as the end to end testing.
+Electron is default browser supported in cypress.
+8. Under the Specs -> Scaffold example specs -> Okay, I got it! is where the cypress is having all the predefined example
+9. Inside the cypress folder 
