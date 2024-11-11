@@ -1,0 +1,21 @@
+{
+  "name": "pack_one",
+  "version": "1.0.0",
+  "description": "This is description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "Automation"
+  ],
+  "author": "Routh kiran Babu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.2"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
