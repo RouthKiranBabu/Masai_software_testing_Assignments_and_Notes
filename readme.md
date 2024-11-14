@@ -1,4 +1,4 @@
-# JavaScript Notes
+# JavaScript Notes contains Git command
 https://iris-asiago-40a.notion.site/Notes-for-JS101-8d93e1c22b7a4934b8a470c2cc91e031
 # Java Notes:
   - https://masai-curriculum-framework.notion.site/Java-Notes-16470c37ca4a44948cdb8dd08cadd302
