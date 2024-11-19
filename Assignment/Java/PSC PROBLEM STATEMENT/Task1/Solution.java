@@ -76,3 +76,27 @@ public class Solution{
         System.out.println(student3.displayStudentInfo());
     }
 }
+
+/*Output
+Student created: Alice, Roll Number: 101
+Student created: Bob, Roll Number: 102
+Student created: Unknown, Roll Number: 0
+Grade assigned for Alice: B.
+Grade assigned for Bob: C.
+Grade assigned for Unknown: A.
+Student: Alice.
+Roll Number: 101.
+Scores: [85.0, 90.0, 78.0].
+Average Score: 84.33333333333333.
+Grade: B
+Student: Bob.
+Roll Number: 102.
+Scores: [65.0, 72.0, 60.0].
+Average Score: 65.66666666666667.
+Grade: C
+Student: Unknown.
+Roll Number: 0.
+Scores: [95.0, 88.0, 92.0].
+Average Score: 91.66666666666667.
+Grade: A
+*/
