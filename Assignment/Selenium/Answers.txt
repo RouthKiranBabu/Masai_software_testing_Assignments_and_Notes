@@ -1,0 +1,45 @@
+1. What is Selenium?
+Answer. Selenium is web-based automation tool. Which is free, open source, support multiple browsers, Supports multiple operating systems, support multiple languages like java, JavaScript, python, C#, Ruby etc.
+
+2. Explain difference between selenium and cypress?
+Answer. Selenium: Need to download browser specific driver(eg: Chrome Driver etc) and external libraries for assertion.
+Cypress: It has the inbuilt methods and there is no need to download outside the box. It covers it all assertion, maximizing the screen, etc without using additional so cypress spends less time to depend on managing the drivers and dependencies.
+
+Selenium: It has steep learning curve where beginners may take time to adapt to selenium. It has a reliance on various header to learn.
+Cypress: With less header we have ensure the quality of the software and good and simple to use Automation tool for the QA Engineers.
+
+Cypress: It has automatic video recording.
+Selenium: It has no built-in automatic video recording.
+
+3. What is selenium IDE and selenium Client API?
+Answer: Selenium IDE(Integrated Development Environment): It has a record and playback feature or tool, Provides a simple user interface and it is best suitable for the beginners or non-programmers.
+Selenium Client API: It is a set of libraries or tools allows QA engineers and programmers to automate or interact with features such as clicking, automate browsers like providing text to the web pages and more. Client API is basically used for various programming languages so that you can choose the programming languages that you are comfortable with.
+
+4. What is selenium Grid and selenium WebDriver?
+Answer. Selenium Grid: It is one of the component of Selenium Suite that allows you to run tests on various browsers and operating systems. At the same time it is used to automate tests on multiple environment.
+Selenium WebDriver: It is a framework for different browser interactions. Which enables cross browsing testing like chrome, edge driver etc. It supports multiple programming languages.
+
+5. Selenium Architecture?
+Answer. Architecture Flows:
+Test Scripts(Client side) -> Selenium WebDriver -> Browser Driver -> Browser
+Test scripts: which is written by programmer using particular programming language uses the Selenium WebDriver API to finally automate browser.
+Selenium WebDriver:
+The WebDriver Converts User defined commands from the script to the browser specific instructions if it is click the button to particular browser then we need that specific web driver.
+Browser Driver:
+The WebDriver communicates with the Browser through Browser Driver. Like Chrome Driver for Chrome Browser.
+
+6. Advantages and Limitations of Selenium?
+Answer. 
+Advantages:
+1. It is a open source & free.
+2. Supports multiple operating system.
+3. Supports multiple browsers.
+4. Supports multiple programming languages like Java, JavaScript, Python, etc.
+5. Integrate third party tool into selenium.
+Disadvantages:
+1. It is limited to web application: means it does not supports other type of applications like Desktop and Mobile.
+2. No built-in reporting: Here testers need to integrate with the third party tools/framework like (testNG, Junit, or Extent reports).
+3. Maintenance requirement: Due to frequent update in browser it may break test, So tester need to ensure frequent Maintenance.
+4. Difficulty in handling dynamic element: Like dynamic change in element makes the tester to relocate the address.
+5. No built-in support for screenshot capturing.
+6. No built-in support for video upload/download: External tools like Autolt or Robot class is used for this process.
