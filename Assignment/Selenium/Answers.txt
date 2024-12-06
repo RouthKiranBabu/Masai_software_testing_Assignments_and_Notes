@@ -1,3 +1,8 @@
+Broken Links, File Handling, Web Tables: https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Lectures/Selenium/Masai%20School%20Lectures/Broken%20Links%2C%20File%20Handling%2C%20Web%20Tables/MavenProject
+Handling IFrames, Windows, and Tabs: https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Lectures/Selenium/Masai%20School%20Lectures/Handling%20IFrames%2C%20Windows%2C%20and%20Tabs/MavenProject
+Web Element Commands: https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Lectures/Selenium/Masai%20School%20Lectures/Web%20Element%20Commands/WebElementAssignment
+Actions Handling: https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Lectures/Selenium/Masai%20School%20Lectures/Actions%20Calendar%20Handling
+
 1. What is Selenium?
 Answer. Selenium is web-based automation tool. Which is free, open source, support multiple browsers, Supports multiple operating systems, support multiple languages like java, JavaScript, python, C#, Ruby etc.
 
