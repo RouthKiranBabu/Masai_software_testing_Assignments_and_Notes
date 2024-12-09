@@ -1,0 +1,41 @@
+TestNG - Test New Generation.
+java based unit testing tool.
+
+Advantages:
+1. Test cases and test suites.
+2. Grouping of test cases.
+3. Prioritize.
+4. Parameterization.
+5. Parallel testing.
+6. Reports.
+
+Help -> Eclipse Marketplace -> Search testNG -> Install -> Confirm -> accept -> Finish
+Window pop ups -> Select all -> press selected
+check allow trust -> accept the trust -> trust selected -> restart now
+
+window -> preference -> TestNG Visible
+
+Right Click on mavenProject -> properties -> Java Build Path -> Libraries tab -> Add Library -> Select TestNG -> next -> finish, In java Build Path -> Apply and close
+you can see TestNG below JRE System Library.
+
+To remove testNG:
+Right Click on mavenProject -> properties -> Java Build Path -> select testNG -> Remove -> Apply and Close.
+
+go to mvn repository and search for testNG:
+copy the dependencies and paste in pom.xml file
+
+right click on the java file and select run as 'TestNG test'.
+
+right click on package -> TestNG -> Create TestNG Class -> Finish
+
+right click on the java file -> TestNG -> Convert to TestNG -> change the location to same package -> Finish
+Hover over "https://testing.org/..." then force download
+right click on file -> Run As -> TestNG Suite
+
+right click on 'emailable-report.html' or 'index.html' -> Open with -> System editor
+
+right click on package and create new file -> *.xml
+
+right click on the package -> TestNG -> Convert to TestNG -> Finish
+testing.xml is present above pom.xml
+move it to the PackOne Package

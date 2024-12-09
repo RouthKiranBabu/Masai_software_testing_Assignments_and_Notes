@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T19:54:09 IST" name="mySuite" finished-at="2024-12-09T19:54:21 IST" duration-ms="12543">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T19:54:09 IST" name="My tests" finished-at="2024-12-09T19:54:21 IST" duration-ms="12543">
+      <class name="PackOne.Class_1">
+        <test-method signature="login()[pri:0, instance:PackOne.Class_1@8f4ea7c]" started-at="2024-12-09T19:54:21 IST" name="login" finished-at="2024-12-09T19:54:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:PackOne.Class_1@8f4ea7c]" started-at="2024-12-09T19:54:21 IST" name="logout" finished-at="2024-12-09T19:54:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="openapp()[pri:0, instance:PackOne.Class_1@8f4ea7c]" started-at="2024-12-09T19:54:21 IST" name="openapp" finished-at="2024-12-09T19:54:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- PackOne.Class_1 -->
+      <class name="PackOne.testNGClass_1">
+        <test-method signature="openapp()[pri:1, instance:PackOne.testNGClass_1@3a93b025]" started-at="2024-12-09T19:54:09 IST" name="openapp" finished-at="2024-12-09T19:54:18 IST" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:PackOne.testNGClass_1@3a93b025]" started-at="2024-12-09T19:54:18 IST" name="testLogo" finished-at="2024-12-09T19:54:21 IST" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:3, instance:PackOne.testNGClass_1@3a93b025]" started-at="2024-12-09T19:54:21 IST" name="testLogin" finished-at="2024-12-09T19:54:21 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="closeApp()[pri:4, instance:PackOne.testNGClass_1@3a93b025]" started-at="2024-12-09T19:54:21 IST" name="closeApp" finished-at="2024-12-09T19:54:21 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- PackOne.testNGClass_1 -->
+    </test> <!-- My tests -->
+  </suite> <!-- mySuite -->
+</testng-results>
