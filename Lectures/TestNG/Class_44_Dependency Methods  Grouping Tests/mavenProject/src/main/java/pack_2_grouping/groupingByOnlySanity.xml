@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regressionSuite">
+	<test name="regressionTest">
+		<groups>
+			<run>
+				<include name="sanity"/>
+				<exclude name="regression"/>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="pack_2_grouping.Class_1_login"/>
+			<class name="pack_2_grouping.Class_2_signupClass"/>
+			<class name="pack_2_grouping.Class_3_paymentTest"/>
+		</classes>
+	</test>
+</suite>
+<!-- [RemoteTestNG] detected TestNG version 7.4.0
+This is login by email...sanity
+This is login by facebook...sanity
+This is login by twitter...sanity
+
+===============================================
+regressionSuite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+-->
