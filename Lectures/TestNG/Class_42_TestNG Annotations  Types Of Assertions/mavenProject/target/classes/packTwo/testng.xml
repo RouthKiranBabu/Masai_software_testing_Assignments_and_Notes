@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="packTwo.Class_1"/>
+      <class name="packTwo.Class_2"/>
+      <class name="packTwo.Class_3"/>
+    </classes>
+  </test> 
+	<test thread-count="5" name="Test2">
+    <classes>
+    	<class name="packTwo.Class_3"/>
+      <class name="packTwo.Class_2"/>
+      <class name="packTwo.Class_1"/>
+    </classes>
+  </test>-->
+<!--</suite>-->
+<!-- OUTPUT
+[RemoteTestNG] detected TestNG version 7.4.0
+This is BeforeSuite bs() from class_3...
+This is BeforeTest bt() from class_1...
+This is Test t() in class_1...
+This is Test t() in class_2...
+This is Test pqr() from class_3...
+This is AfterTest bt() from class_2...
+This is BeforeTest bt() from class_1...
+This is Test pqr() from class_3...
+This is Test t() in class_2...
+This is Test t() in class_1...
+This is AfterTest bt() from class_2...
+This is AfterSuite as() from class_3...
+
+===============================================
+Suite
+Total tests run: 6, Passes: 6, Failures: 0, Skips: 0
+===============================================
+-->
+
+<!--
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="packTwo.Class_1"/>
+      <class name="packTwo.Class_2"/>
+    </classes>
+  </test> 
+	<test thread-count="5" name="Test2">
+    <classes>
+      <class name="packTwo.Class_2"/>
+      <class name="packTwo.Class_1"/>
+    </classes>
+  </test> -->
+<!--</suite>-->
+<!--Output
+[RemoteTestNG] detected TestNG version 7.4.0
+This is BeforeTest login from class_1...
+This is t() in class_1...
+This is t() in class_2...
+This is BeforeTest login from class_2...
+This is BeforeTest login from class_1...
+This is t() in class_2...
+This is t() in class_1...
+This is BeforeTest login from class_2...
+
+===============================================
+Suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================-->
+
+<!-- 
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="packTwo.Class_2"/>
+      <class name="packTwo.Class_1"/>
+    </classes>
+  </test>--> <!-- Test -->
+  
+<!--</suite>  Suite --> 
+
+<!--This file appear when (Right click on package -> TestNG -> Convert to testNG)
+and browsed in this current package
+	Output:
+[RemoteTestNG] detected TestNG version 7.4.0
+This is BeforeTest login from class_1...
+This is t() in class_2...
+This is t() in class_1...
+This is BeforeTest login from class_2...
+
+===============================================
+Suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+-->
