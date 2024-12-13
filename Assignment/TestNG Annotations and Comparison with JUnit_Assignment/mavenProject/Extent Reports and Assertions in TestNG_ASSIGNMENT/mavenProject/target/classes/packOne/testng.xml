@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="title" value="Login Form"/>
+  <parameter name="link" value="https://v1.training-support.net/selenium/login-form"/>
+  <parameter name="user1" value="routh"/>
+  <parameter name="pass1" value="genrg"/>
+  <parameter name="user2" value="admin"/>
+  <parameter name="pass2" value="password"/>
+  <classes>
+  	<class name="packOne.class_1"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
