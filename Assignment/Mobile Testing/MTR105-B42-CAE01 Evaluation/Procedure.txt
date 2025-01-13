@@ -1,0 +1,71 @@
+Pre-requisites:
+Appium, Node.js, Java, Appium Inspector
+
+Emulator:
+Start the emulator from the AndroidStudio.
+or in the separate file Named as -> emulator2.bat having the following text:
+---------
+@echo
+cd /d path_Of_Emulator_Present[eg: C:/User/kiran/AppData/Local/Sdk/emulator/]
+start -avd setDevice
+pause
+---------
+Where setDevice is the device name of provided at the Android studio.
+To check device is actually running:
+In the command Prompt type > adb devices
+response Example: emulator-5554 
+
+Folder Structure:
+ActionsPerformApi/
+	Utility[Package]
+		actionsFunctions.java
+	Test[Package]
+		functionCaller.java
+
+Requirements in Script:
+1. Imports:
+import org.openqa.java_client.android.AndroidDriver;
+
+2. DesiredCapabilities:
+// Dependency based on device:
+DesiredCapabilities dc = new DesiredCapabilities();
+dc.setCapability("deviceName", "setDevice");
+dc.setCapability("platformName", "android");
+dc.setCapability("platformVersion", "14");
+/* 
+Dependency based on app we get the necessary information
+once we install the 'apk info' app available in the play store
+or drag and drop the apk of that app to the emulator to install in the
+same device and then there will be three dots at the top right corner
+and copy the necessary details then get the corresponding value
+*/
+dc.setCapability("appPackage", "com./.../mxplayer");
+dc.setCapability("appActivity", "com/.../");
+
+URL url = new URL("http://127.0.0.1:4723");
+AndroidDriver driver = new AndroidDriver(url, dc);
+// For checking does this prints
+System.out.println("Application started ...");
+
+3. For finding the element based on id, accessibilityId, className, name, 
+css Selector, xpath, etc. Storing in the variable in the WebElement type.
+We get the necessary address of the element from the AppiumInspector.
+Eg: 
+// By using XPath
+WebElement ele = driver.findElement(By.xpath("//.../..."));
+// By using id
+WebElement ele = driver.findElement(By.id("//.../..."));
+// By using name
+WebElement ele = driver.findElement(By.name("//.../..."));
+
+4. Performing actions for element:
+// For providing value in the input fields
+ele.Send_keys("value");
+// For performing clicking on the element
+ele.click();
+
+5. It must be a maven Project in Eclipse.
+
+6. Before running the Java Application script run both Appium server and emulator.
+
+
