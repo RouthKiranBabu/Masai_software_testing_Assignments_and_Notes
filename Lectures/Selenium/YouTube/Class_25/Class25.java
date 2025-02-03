@@ -1,3 +1,16 @@
+/*Create a Maven Project in pom file attact:
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.28.1</version>
+</dependency>
+
+  </dependencies>
+  
+Right click on Maven Project -> Maven -> Update Project -> Check Force Update of Snapshots/Releases -> Ok (Then it adds dependencies at the project)
+Create a Package contains java script in the src/main/java*/
 package YouTube;
 
 import java.util.List;
