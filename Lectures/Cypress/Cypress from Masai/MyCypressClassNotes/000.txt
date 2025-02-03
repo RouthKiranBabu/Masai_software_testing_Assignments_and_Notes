@@ -1,1 +1,1 @@
-cy.xpath("(//*[contains(text(), 'Simple Form')])[1]").should("be.visible");s
+cy.xpath("(//*[contains(text(), 'Simple Form')])[1]").should("be.visible");
