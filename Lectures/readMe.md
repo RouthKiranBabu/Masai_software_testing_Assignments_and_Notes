@@ -3,6 +3,8 @@
     https://youtu.be/8x7QcF9LG7I?si=2fEvxKH7ddhDfiam
     https://youtu.be/TqmtQU1XYv8?si=F_aogejOtZSP0LIG
     https://youtu.be/0mGpBxuYmpU?si=A2X9a8SZ-oc7warv
+# Playwright: 
+    https://www.youtube.com/playlist?list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
 # Appium: 
     https://www.youtube.com/playlist?list=PLUDwpEzHYYLsx_2JFNBMITjHqTnuszhb_
 # Cucumber With Selenium: 
