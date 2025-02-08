@@ -1,6 +1,6 @@
 # Table of Content
  - [Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/edit/main/Assignment/Mobile%20Testing/Level%20Supermind%20Assignment/readme.md#document) Given Document
- - [Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/edit/main/Assignment/Mobile%20Testing/Level%20Supermind%20Assignment/readme.md#document) Pre-requisites
+ - [Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/blob/main/Assignment/Mobile%20Testing/Level%20Supermind%20Assignment/readme.md#pre-requisites) Pre-requisites
 # Document 
 ###### Received Date: 7th Feb, 2024
 ## Task Description:
