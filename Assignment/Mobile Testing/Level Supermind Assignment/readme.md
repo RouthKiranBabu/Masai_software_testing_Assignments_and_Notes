@@ -29,6 +29,16 @@ familiarity with mobile test automation frameworks.
 # Pre-requisites
  - [Open](https://www.oracle.com/java/technologies/downloads/#java11?er=221886) Install Java Development Kit (JDK)
  - [Open](https://www.eclipse.org/) Install Eclipse IDE
+ - [Open Node.js](https://nodejs.org/en) Install Appium
+   - ```java
+     npm install -g appium
+     appium -v
+      ```
+  - [Open](https://appium.io/docs/en/latest/) Appium GUI Desktop
+  - JAVA_HOME setup in Environmental Variable.
+  - USB Connector for real Devices and Being Developer in Android.
+  - Vysor app for both Android and Laptop/Desktop.
+   
 
 <details>
 <summary>Folder Structure</summary>
