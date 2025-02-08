@@ -47,6 +47,12 @@ familiarity with mobile test automation frameworks.
      <img alt="Completion Certificate" src="./usb.gif"> </img>
     </details>
   - [Vysor app](https://www.vysor.io/) for both Android and Laptop/Desktop.
+  - Apkinfo app - for appActivity and appPackage
+    <details align = "center">
+     <summary align = "left">Gif</summary>
+     <img alt="Completion Certificate" src="./appActivity.gif" width=50%> </img>
+     <img alt="Completion Certificate" src="./appPackage.gif" width=50%> </img>
+    </details>
    
 
 <details>
