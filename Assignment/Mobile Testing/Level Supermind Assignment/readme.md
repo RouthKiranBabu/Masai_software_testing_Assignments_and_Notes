@@ -1,3 +1,11 @@
+```mermaid
+  flowchart LR;
+      A[Level Supermind Assignment]-->|Folder| B[Android];
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 # Document
 ## Task Description:
 Develop automated test scripts to validate the login functionality of our Android and iOS
@@ -25,11 +33,4 @@ familiarity with mobile test automation frameworks.
 <details>
 <summary>Folder Structure</summary>
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 </details>
