@@ -104,3 +104,7 @@ b --> readme.md
 | Integer Type | ✅ | 1234567890 |
 | Other Type or Symbol | ❌ | 123*567890 |
 </details>
+
+# Appium Code Learning/Resources
+- [Link1](https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Assignment/Mobile%20Testing)
+- [Link2](https://github.com/RouthKiranBabu/Masai-School-Journey/tree/main/Lectures/Appium)
