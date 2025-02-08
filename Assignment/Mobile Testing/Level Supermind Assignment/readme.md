@@ -36,6 +36,7 @@ familiarity with mobile test automation frameworks.
      appium-doctor --android
      appium -v
       ```
+     <img alt="Completion Certificate" src="./appium_doctor.png"> </img>
   - [Open](https://appium.io/docs/en/latest/) Appium GUI Desktop
   - JAVA_HOME setup in Environmental Variable.
   - USB Connector for real Devices and Being Developer in Android.
