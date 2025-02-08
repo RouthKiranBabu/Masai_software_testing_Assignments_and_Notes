@@ -26,11 +26,9 @@ challenges faced during development
 Submission Deadline: [5 days]
 This task will allow us to evaluate a candidate&#39;s technical skills, problem-solving abilities, and
 familiarity with mobile test automation frameworks.
-# Things Required
- - MVNRepository
-    - [Open](https://mvnrepository.com/artifact/io.appium/java-client/9.4.0) JavaClient
-    - [Open](https://www.selenium.dev/downloads/) Selenium Jars
-    - [Open]() Apache Commons Lang
+# Pre-requisites
+ - [Open](https://www.oracle.com/java/technologies/downloads/#java11?er=221886) Install Java Development Kit (JDK)
+ - [Open](https://www.eclipse.org/) Install Eclipse IDE
 
 <details>
 <summary>Folder Structure</summary>
