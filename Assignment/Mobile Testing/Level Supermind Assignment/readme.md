@@ -28,9 +28,9 @@ This task will allow us to evaluate a candidate&#39;s technical skills, problem-
 familiarity with mobile test automation frameworks.
 # Things Required
  - MVNRepository
-    - JavaClient[Click here](https://mvnrepository.com/artifact/io.appium/java-client/9.4.0)
-    - Selenium Jars[Click here](https://www.selenium.dev/downloads/)
-    - Apache Commons Lang[Click here]()
+    - [Open](https://mvnrepository.com/artifact/io.appium/java-client/9.4.0) JavaClient
+    - [Open](https://www.selenium.dev/downloads/) Selenium Jars
+    - [Open]() Apache Commons Lang
 
 <details>
 <summary>Folder Structure</summary>
