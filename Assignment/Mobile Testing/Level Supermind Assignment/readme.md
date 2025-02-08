@@ -1,3 +1,6 @@
+# Table of Content
+ - Given Document[Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/edit/main/Assignment/Mobile%20Testing/Level%20Supermind%20Assignment/readme.md#document)
+ - Things Required
 # Document 
 ###### Received Date: 7th Feb, 2024
 ## Task Description:
@@ -23,6 +26,12 @@ challenges faced during development
 Submission Deadline: [5 days]
 This task will allow us to evaluate a candidate&#39;s technical skills, problem-solving abilities, and
 familiarity with mobile test automation frameworks.
+# Things Required
+ - MVNRepository
+    - JavaClient[Click here](https://mvnrepository.com/artifact/io.appium/java-client/9.4.0)
+    - Selenium Jars[Click here](https://www.selenium.dev/downloads/)
+    - Apache Commons Lang[Click here]()
+
 <details>
 <summary>Folder Structure</summary>
 
