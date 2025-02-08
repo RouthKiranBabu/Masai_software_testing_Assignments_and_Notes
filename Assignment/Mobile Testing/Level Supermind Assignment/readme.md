@@ -39,8 +39,14 @@ familiarity with mobile test automation frameworks.
      <img alt="Completion Certificate" src="./appium_doctor.png"> </img>
   - [Open](https://appium.io/docs/en/latest/) Appium GUI Desktop
   - JAVA_HOME setup in Environmental Variable.
+    - <img alt="Completion Certificate" src="./javaHome.png"> </img>
+    - <img alt="Completion Certificate" src="./javaHomePath.png"> </img>
   - USB Connector for real Devices and Being Developer in Android.
-  - Vysor app for both Android and Laptop/Desktop.
+    <details>
+     <summary>Gif</summary>
+     <img alt="Completion Certificate" src="./usb.gif"> </img>
+    </details>
+  - [Vysor app](https://www.vysor.io/) for both Android and Laptop/Desktop.
    
 
 <details>
