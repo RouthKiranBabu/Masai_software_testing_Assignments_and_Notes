@@ -32,6 +32,8 @@ familiarity with mobile test automation frameworks.
  - [Open Node.js](https://nodejs.org/en) Install Appium
    - ```java
      npm install -g appium
+     npm install appium-doctor
+     appium-doctor --android
      appium -v
       ```
   - [Open](https://appium.io/docs/en/latest/) Appium GUI Desktop
