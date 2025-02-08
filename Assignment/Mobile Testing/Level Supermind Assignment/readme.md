@@ -83,4 +83,24 @@ b --> readme.md
 ```
 </details>
 
-# df
+## Manual Testing Approach
+### Boundary Value Analysis 
+<details>
+ <summary>Phone Number Integer Value</summary>
+ 
+| Condition | Status |
+| ---: | :--- |
+| < 10 | ❌ |
+| > 10 | ❌ |
+| = 10 | ✅ |
+</details>
+
+### Equivalent Partitioning 
+<details>
+ <summary>Phone Number with Different Type</summary>
+ 
+| Condition | Status | Example |
+| ---: | :--- | :---:
+| Integer Type | ✅ | 1234567890 |
+| Other Type or Symbol | ❌ | 123*567890 |
+</details>
