@@ -1,12 +1,5 @@
-```mermaid
-  flowchart LR;
-      A[Level Supermind Assignment]-->|Folder| B[Android];
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
-# Document
+# Document 
+###### Received Date: 7th Feb, 2024
 ## Task Description:
 Develop automated test scripts to validate the login functionality of our Android and iOS
 applications.
@@ -33,4 +26,29 @@ familiarity with mobile test automation frameworks.
 <details>
 <summary>Folder Structure</summary>
 
+```mermaid
+graph TD;
+a[Level Supermind Assignment]-->|Folder| b[Android/];
+b --> c[src/test/]
+c --> f[java]
+f --> |Initializes the Appium driver, Loads configurations from config.properties, Sets up common test setup and teardown methods| h[base]
+f --> |Implements Page Object Model POM for UI elements, Each page of the app gets a separate class.| i[pages]
+f --> j[Reports]
+j --> |test-output/ → Stores TestNG reports, Extent Reports can also be generated.| k[ReportManager]
+j --> TestListner
+f --> n[utils]
+f --> l[tests]
+l --> m[Contains User Scripts]
+c --> g[resources]
+g --> Properties
+g --> Reports
+g --> p[Runner]
+p --> q[xml files for corresponding Login page]
+g --> screenshots
+b --> d[target]
+b --> |Add all required dependencies & Plugin| e[pom.xml]
+b --> readme.md
+```
 </details>
+
+# df
