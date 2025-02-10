@@ -13,7 +13,7 @@ If you do things in browser it automatically writes the code in Inspector. [Vide
  - Code changes for different programming language by default it happens for node.js.
  - Issue - Need to Create the file (*.spec.js) Where we need to paste the code which is copied from the inspector.
 
-### Playwright Help:
+## Playwright Help:
 ```bash
 npx playwright codegen --help
 ```
@@ -53,5 +53,6 @@ npx playwright codegen --help
         <div  align = center>
         <img alt="Target" src="./customizeBrowserSize.gif" > </img>
         </div>
+        
 # Resources😊
  - [Video](https://www.youtube.com/watch?v=_y7Q9tcbInU&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-&index=6)
