@@ -1,9 +1,13 @@
 # Code to Start the Code Generator
 
 ## Type Code in Terminal
+<div align = center>
+ 
 ```java
 npx playwright codegen
 ```
+</div>
+
  - Which open the browser and Playwright Inspector
 If you do things in browser it automatically writes the code in Inspector. [Video Link](https://youtu.be/0nxJ30ftGHE).
 ## Video showcasing use of Locators in Inspector
