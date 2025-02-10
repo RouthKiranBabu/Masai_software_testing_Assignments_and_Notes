@@ -30,6 +30,7 @@ npx playwright codegen --help
 <div  align = center>
 <img alt="Target" src="./useOfCodegenCreateScript.gif" width = 100%> </img>
 </div>
+
  - For Opening with different target[Javascript is Bydefault]:
     ```javascript
     npx playwright codegen --target javascript
