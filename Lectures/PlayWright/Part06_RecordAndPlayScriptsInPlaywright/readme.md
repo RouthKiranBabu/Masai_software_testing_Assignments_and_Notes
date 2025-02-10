@@ -26,9 +26,9 @@ npx playwright codegen --help
         ```javascript
         npx playwright codegen -o tests/Part01.spec.js
         ```
-        <div  align = center>
-        <img alt="Target" src="./useOfCodegenCreateScript.gif" width = 90%> </img>
-        </div>
+<div  align = center>
+<img alt="Target" src="./useOfCodegenCreateScript.gif" width = 100%> </img>
+</div>
  - For Opening with different target[Javascript is Bydefault]:
     ```javascript
     npx playwright codegen --target javascript
@@ -42,7 +42,7 @@ npx playwright codegen --help
     npx playwright codegen --device "iPhone 11"
     ```
     - Example
-        <div  align = center width = 90%>
+        <div  align = center width = 100%>
         <img alt="Target" src="./automatingInDevice.gif" > </img>
         </div>
  - Customizing the Size of Browser
@@ -50,7 +50,7 @@ npx playwright codegen --help
     npx playwright codegen --viewport-size "300, 150"
     ```
     - Example
-        <div  align = center width = 90%>
+        <div  align = center>
         <img alt="Target" src="./customizeBrowserSize.gif" > </img>
         </div>
 # Resources😊
