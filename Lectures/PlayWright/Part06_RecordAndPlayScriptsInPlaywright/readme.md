@@ -53,5 +53,5 @@ npx playwright codegen --help
         <div  align = center width = 90%>
         <img alt="Target" src="./customizeBrowserSize.gif" > </img>
         </div>
-# Resources
+# Resources😊
  - [Video](https://www.youtube.com/watch?v=_y7Q9tcbInU&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-&index=6)
