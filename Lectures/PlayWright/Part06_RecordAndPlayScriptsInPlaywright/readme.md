@@ -1,5 +1,6 @@
-# Code to Start the Code Generator:
-## Type Code in Terminal:
+# Code to Start the Code Generator
+
+## Type Code in Terminal
 ```java
 npx playwright codegen
 ```
@@ -13,7 +14,7 @@ If you do things in browser it automatically writes the code in Inspector. [Vide
  - Code changes for different programming language by default it happens for node.js.
  - Issue - Need to Create the file (*.spec.js) Where we need to paste the code which is copied from the inspector.
 
-## Playwright Help:
+## Terminal Code of Playwright
 ```bash
 npx playwright codegen --help
 ```
