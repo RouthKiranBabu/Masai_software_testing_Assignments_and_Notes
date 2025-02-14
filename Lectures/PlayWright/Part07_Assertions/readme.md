@@ -89,3 +89,95 @@ Official Website - [Click Here](https://playwright.dev/docs/test-assertions#auto
 
   <img alt="Image" src="./imgvid/newsletter.gif"> </img>
 </details>
+
+## For RegisterButton Having Attribute
+```javascript
+    const regbutton = await page.locator('#register-button')
+    await expect(regbutton).toHaveAttribute('type', 'submit')
+```
+
+<details>
+  <summary>Gif</summary>
+
+  <img alt="Image" src="./imgvid/regbutton.gif"> </img>
+</details>
+
+## To Check Exact text and Partial text
+```javascript
+    // To check exact text
+    await expect(await page.locator('.page-title h1')).toHaveText('Register')
+    // To check partial text
+    await expect(await page.locator('.page-title h1')).toContainText('ister')
+```
+
+<details>
+  <summary>Gif</summary>
+
+  <img alt="Image" src="./imgvid/containtext.gif"> </img>
+</details>
+
+## Email InputBox having Value
+```javascript
+    const emailinput = await page.locator('#Email')
+    await emailinput.fill('test@demo.com')
+    await expect(emailinput).toHaveValue('test@demo.com')
+```
+
+<details>
+  <summary>Gif</summary>
+
+  <img alt="Image" src="./imgvid/emailhavevalue.gif"> </img>
+</details>
+
+## To check Number of Child Div
+```javascript
+    const options = await page.locator('.form-fields')
+    await expect(options).toHaveCount(4)
+```
+
+<details>
+  <summary>Gif</summary>
+
+  <img alt="Image" src="./imgvid/countinputs.gif"> </img>
+</details>
+
+# Negative Assertions
+
+<div align = 'right'>
+  
+  [Official Link](https://playwright.dev/docs/test-assertions#auto-retrying-assertions)
+</div>
+
+<div align = center width = 100%>
+  
+|Assertion|Description|
+|-:|:-|
+|`expect(page).not.toHaveURL()`|Page has URL|
+|`expect(page).not.toHaveTitle()`|Page has title|
+|`...`|...|
+</div>
+
+# Soft Assertions
+
+<div align = 'right'>
+  
+  [Official Link](https://playwright.dev/docs/test-assertions#soft-assertions)
+</div>
+
+<details>
+  <summary>Examples</summary>
+
+  ```javascript
+  // Make a few checks that will not stop the test when failed...
+  await expect.soft(page.getByTestId('status')).toHaveText('Success');
+  await expect.soft(page.getByTestId('eta')).toHaveText('1 day');
+  
+  // ... and continue the test to check more things.
+  await page.getByRole('link', { name: 'next page' }).click();
+  await expect.soft(page.getByRole('heading', { name: 'Make another order' })).toBeVisible();
+  ```
+</details>
+
+
+# Difference between Hard Assertions and Soft Assertions
+<img alt="Image" src="./imgvid/hardAndSoftAssertions.png"> </img>
