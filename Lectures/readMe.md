@@ -1,3 +1,15 @@
+# Process of Learning
+
+```mermaid
+graph LR;
+a[Watch YouTube]-->b[Write Github readme];
+a --> c[Shadow the video];
+b --> d[Save in Github];
+c --> d;
+d --> e[Use Mobile to See Readme];
+d --> |Notes for Revision| f[Write in Notes];
+```
+
 # Github:
     https://youtu.be/crlrz-Ks8DE?si=2d5InoFEhug3AW6L
     https://youtu.be/8x7QcF9LG7I?si=2fEvxKH7ddhDfiam
