@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background: #333;
+            color: red;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .hidden { display: none; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <div class="container">
+        <h2>User Input Form</h2>
+        <label>Username:</label>
+        <input type="text" id="username"><br>
+        <label>Password:</label>
+        <input type="password" id="password"><br>
+        <label>Email:</label>
+        <input type="email" id="email"><br>
+        <label>Phone Number:</label>
+        <input type="tel" id="phone"><br>
+        <br>
+        <button onclick="addToTable()">Add</button>
+        <button onclick="togglePreview()">Preview</button>
+        <button onclick="confirmAdd()">Confirm Add</button>
+        <button onclick="exportToExcel()">Create Table</button>
+    </div>
+    <table id="userTable" class="hidden">
+        <thead>
+            <tr><th>Username</th><th>Password</th><th>Email</th><th>Phone</th></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        let tempData = [];
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+
+        function addToTable() {
+            let user = document.getElementById('username').value;
+            let pass = document.getElementById('password').value;
+            let email = document.getElementById('email').value;
+            let phone = document.getElementById('phone').value;
+            tempData = [user, pass, email, phone];
+            alert("Data added temporarily. Click 'Confirm Add' to save.");
+        }
+
+        function togglePreview() {
+            let table = document.getElementById('userTable');
+            table.classList.toggle('hidden');
+        }
+
+        function confirmAdd() {
+            if (tempData.length === 0) {
+                alert("No data to add!");
+                return;
+            }
+            let tbody = document.getElementById('userTable').querySelector('tbody');
+            let row = tbody.insertRow();
+            tempData.forEach(data => {
+                let cell = row.insertCell();
+                cell.textContent = data;
+            });
+            tempData = [];
+            alert("Data saved!");
+        }
+
+        function exportToExcel() {
+            let table = document.getElementById('userTable');
+            let wb = XLSX.utils.book_new();
+            let ws = XLSX.utils.table_to_sheet(table);
+            XLSX.utils.book_append_sheet(wb, ws, "Users");
+            XLSX.writeFile(wb, "User_Data.xlsx");
+        }
+    </script>
+</body>
+</html>
