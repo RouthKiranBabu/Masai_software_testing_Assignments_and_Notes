@@ -3,7 +3,8 @@
 
 Official Website - [Click Here](https://playwright.dev/docs/test-assertions#auto-retrying-assertions)
 </div>
-
+<div align = center width = 100%>
+  
 |Assertion|Description|
 |-:|:-|
 |`expect(page).toHaveURL()`|Page has URL|
@@ -17,3 +18,12 @@ Official Website - [Click Here](https://playwright.dev/docs/test-assertions#auto
 |`expect(locator).toContaintext()`|Element Contains Text|
 |`expect(locator).toHaveValue(value)`|Input has a Value|
 |`expect(locator).toHaveCount()`|List of elements has given length|
+</div>
+
+> [!TIP]
+> In playwright.config.js -> testDir: './tests/Part07_Assertions' So you can run all the tests in on Space. [Learn](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+
+
+
+
+
