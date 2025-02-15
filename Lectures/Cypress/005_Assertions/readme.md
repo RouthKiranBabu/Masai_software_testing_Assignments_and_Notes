@@ -89,6 +89,16 @@ describe('Assertions demo', () => {
 });
 ```
 
+## To find the Number of Div Tag
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        cy.xpath("//div").should('have.length', "14")
+    });
+});
+```
+
 <details>
   <summary>Cypress Best Feature</summary>
   <h3>Getting Elements From Cypress</h3>
