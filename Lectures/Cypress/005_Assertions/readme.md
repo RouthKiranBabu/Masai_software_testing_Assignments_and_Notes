@@ -5,6 +5,9 @@
   <img alt="Image" src="./imgvid/Pre Requisites.gif"> </img>
 </details>
 
+> [!NOTE]
+> Cypres Run Command: `npx cypress run --spec "cypress/e2e/Part07.cy.js" --browser chrome --headed`. [Learn](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+
 ## Importing into the File
 
 <div align = center>
