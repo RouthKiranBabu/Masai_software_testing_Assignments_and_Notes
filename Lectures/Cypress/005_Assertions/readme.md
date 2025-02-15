@@ -23,7 +23,7 @@ l --> q[Click on Create spec];
 
 <div align = center>
   
-|File|Code|
+|File|Added Code|
 |--:|:--|
 |command.js|`///<reference types = "cypress"/>`|
 |e2e.js|`require("cypress-xpath")`|
