@@ -5,7 +5,7 @@
   <img alt="Image" src="./imgvid/Pre Requisites.gif"> </img>
 </details>
 
-# Importing into the File
+## Importing into the File
 
 <div align = center>
   
@@ -89,6 +89,12 @@ describe('Assertions demo', () => {
 });
 ```
 
+<details>
+  <summary>Cypress Best Feature</summary>
+  <h3>Getting Elements From Cypress</h3>
+  <img alt="Image" src="./imgvid/Cypressfeature.gif"> </img>
+</details>
+
 ## To find the Number of Div Tag
 ```javascript
 describe('Assertions demo', () => {
@@ -99,11 +105,23 @@ describe('Assertions demo', () => {
 });
 ```
 
+## To Check Provided input as Expected
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        cy.get("input[placeholder='Username']").type("standard_user")
+        .should('have.value', 'standard_user')
+    });
+});
+```
+
 <details>
-  <summary>Cypress Best Feature</summary>
+  <summary>Image</summary>
   <h3>Getting Elements From Cypress</h3>
-  <img alt="Image" src="./imgvid/Cypressfeature.gif"> </img>
+  <img alt="Image" src="./imgvid/numberofdiv.png"> </img>
 </details>
+
 
 # Useful Website for Automating
  - [`SauceDemo`](https://www.saucedemo.com/) – Great for UI automation with different user roles.
