@@ -1,5 +1,9 @@
 # Pre-requisites
-<img alt="Image" src="./imgvid/Pre Requisites.gif"> </img>
+<details>
+  <summary>Install Cypress and Creating Spec</summary>
+
+  <img alt="Image" src="./imgvid/Pre Requisites.gif"> </img>
+</details>
 
 # Importing into the File
 
