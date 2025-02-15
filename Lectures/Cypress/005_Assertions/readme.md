@@ -1,3 +1,6 @@
+# Pre-requisites
+<img alt="Image" src="./imgvid/Pre Requisites.gif"> </img>
+
 # Importing into the File
 
 <div align = center>
@@ -8,7 +11,12 @@
 |e2e.js|`require("cypress-xpath")`|
 </div>
 
-# Coding Section
+# Assertions
+<div align = right>
+
+Official Website - [Click Here](https://docs.cypress.io/app/references/assertions)
+</div>
+
 ## Using Implicit Assertions
 ```javascript
 describe('Assertions demo', () => {
@@ -20,7 +28,68 @@ describe('Assertions demo', () => {
     });
 });
 ```
+> [!WARNING]
+> In the above code we are `using the cy.url() again and again`. [Learn](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        cy.url().should('include', "saucedemo.com")
+        .should('eq', "https://www.saucedemo.com/")
+        .should('contain', 'saucedemo')
+    });
+});
+```
+> [!TIP]
+> It's better to `call the url once` and use the assertion multiple times.
 
+> [!NOTE]
+> We are using the `should Multiple times`.
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        cy.url().should('include', "saucedemo.com")
+        .and('eq', "https://www.saucedemo.com/")
+        .and('contain', 'saucedemo')
+        .and('not.contain', 'sdemo') // Using not
+    });
+});
+```
+
+## Assertion for Title and Logo Visibility
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        cy.title().should('eq', 'Swag Labs')
+        .and('include', 'Labs')
+        .and('contain', 'Swag')
+
+        cy.get('.login_logo').should('be.visible')
+        // Alternative of Above
+        cy.get('.login_logo').should('exist')
+    });
+});
+```
+
+## To check Logo Visibility and Existance
+```javascript
+describe('Assertions demo', () => {
+    it('Implicit Assertions', () => {
+        cy.visit("https://www.saucedemo.com/")
+        // Logo is visible or not and exist or not
+        cy.get('.login_logo').should('be.visible')
+        .and('exist')
+    });
+});
+```
+
+<details>
+  <summary>Cypress Best Feature</summary>
+  <h3>Getting Elements From Cypress</h3>
+  <img alt="Image" src="./imgvid/Cypressfeature.gif"> </img>
+</details>
 
 # Useful Website for Automating
  - [`SauceDemo`](https://www.saucedemo.com/) – Great for UI automation with different user roles.
