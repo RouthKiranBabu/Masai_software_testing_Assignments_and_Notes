@@ -168,3 +168,6 @@ describe('Assertions demo', () => {
 - API Testing (Login Authentication with API Calls):
   - [`ReqRes`](https://reqres.in/) – Fake API for testing login and CRUD operations.
   - [`Restful-Booker`](https://restful-booker.herokuapp.com/) – API testing with login authentication.
+
+# Resource😊
+ - [Video](https://www.youtube.com/playlist?list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU)
