@@ -99,3 +99,20 @@ public class Class02_tagClassName {
 
   <img alt="Image" src="./imgvid/tagclass.gif" width = 100%> </img>
 </details>
+
+## Code for Tag Attribute
+```javascript
+
+```
+## Result
+>[!NOTE]
+>Both the below code represents the same:
+>```javascript
+>driver.findElement(By.cssSelector("input[placeholder='Search store']")).sendKeys("T-Shirts");
+>driver.findElement(By.cssSelector("[placeholder='Search store']")).sendKeys("T-Shirts");
+>```
+<details>
+  <summary>Image for Tag Attribute</summary>
+
+  <img alt="Image" src="./imgvid/tagattribute.png"> </img>
+</details>
