@@ -92,3 +92,45 @@ public class class03_linkTextAndPartialLinkText {
 
   <img alt="Image" src="./imgvid/_Linktext Partiallinktext.gif"> </img>
 </details>
+
+## Code: Multi-element by tagName and className
+```javascript
+package pack;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class class04_ {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.opencart.com");
+		driver.manage().window().maximize();
+		
+		List<WebElement> headerList = driver.findElements(By.className("list-inline-item"));
+		System.out.println("Total Number Element[className = 'list-inline-item']: " + headerList.size()); // Total Number Element[className = 'list-inline-item']: 7
+		
+//		To find the number of a tag or links in the driver
+		List<WebElement> linkList = driver.findElements(By.tagName("a"));
+		System.out.println("Total Number Element[tagName = 'a']: " + linkList.size()); // Total Number Element[tagName = 'a']: 76
+		
+		driver.quit();
+	}
+}
+```
+## Images
+<details>
+  <summary>Class Name</summary>
+
+  <img alt="Image" src="./imgvid/className.png"> </img>
+</details>
+<details>
+  <summary>Tag Name</summary>
+
+  <img alt="Image" src="./imgvid/tagName.png"> </img>
+</details>
