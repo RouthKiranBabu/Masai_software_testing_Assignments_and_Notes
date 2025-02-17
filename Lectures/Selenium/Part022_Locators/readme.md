@@ -104,7 +104,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class class04_ {
+public class class04_findingMultipleElement {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -119,6 +119,10 @@ public class class04_ {
 		List<WebElement> linkList = driver.findElements(By.tagName("a"));
 		System.out.println("Total Number Element[tagName = 'a']: " + linkList.size()); // Total Number Element[tagName = 'a']: 76
 		
+//		To find the number of images in the webpage
+		List<WebElement> imgList = driver.findElements(By.tagName("img"));
+		System.out.println("Total Number Element[tagName = 'img']: " + imgList.size()); // Total Number Element[tagName = 'img']: 18
+		
 		driver.quit();
 	}
 }
@@ -130,7 +134,12 @@ public class class04_ {
   <img alt="Image" src="./imgvid/className.png"> </img>
 </details>
 <details>
-  <summary>Tag Name</summary>
+  <summary>Tag Name[a]</summary>
 
   <img alt="Image" src="./imgvid/tagName.png"> </img>
+</details>
+<details>
+  <summary>Tag Name[img]</summary>
+
+  <img alt="Image" src="./imgvid/imgTagName.png"> </img>
 </details>
