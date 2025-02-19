@@ -33,10 +33,10 @@ public class Class00_ {
 	}
 }
 ```
-## Result
-
-<details>
-  <summary>XPath Location</summary>
-
-  <img alt="Image" src="./imgvid/xpath.png" width = 100%> </img>
-</details>
+>[!NOTE]
+>Above code is by using the single Attribute.
+><details>
+>  <summary>XPath Location</summary>
+>
+>  <img alt="Image" src="./imgif/xpath.png" width = 100%> </img>
+></details>
