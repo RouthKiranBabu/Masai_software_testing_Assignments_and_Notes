@@ -18,6 +18,7 @@ test("Soft Assertions", async ({page}) => {
 })
 ```
 ## Report
-<img alt="Image" src="./imgif/hardassertions.png"> </img>
+<img alt="Image" src="./imgif/hardassertion.png"> </img>
 >[!NOTE]
 >In Hard Assertions if something fails its stops without executing below.
+
