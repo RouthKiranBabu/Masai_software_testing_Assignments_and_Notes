@@ -1,7 +1,20 @@
 # Pre-requisites
 ## PDF For Theory 👉[Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/blob/main/Lectures/Selenium/Session%2025%20-%20Selenium%20with%20Java%20%20Locators%20-%20XPath%20Axes%20%20SelectorsHub%20%202024%20New%20series/groart/imgif/LocatingElement.pdf)
+<details>
+  <summary>For Ancestor</summary>
 
-# Pre-requisites
+  <img alt="Image" src="imgif/_Ancestor.gif"> </img>
+</details>
+<details>
+  <summary>For Ancestor Decendant Star</summary>
+
+  <img alt="Image" src="imgif/_Ancestortrdecendantstar.gif"> </img>
+</details>
+<details>
+  <summary>For Child Ancestor</summary>
+
+  <img alt="Image" src="imgif/_Childancestor.gif"> </img>
+</details>
 <details>
   <summary>For Parent TD</summary>
 
