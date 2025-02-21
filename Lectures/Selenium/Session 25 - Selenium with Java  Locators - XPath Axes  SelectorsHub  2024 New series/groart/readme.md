@@ -1,3 +1,7 @@
+# Pre-requisites
+## PDF For Theory 👉[Click here](https://github.com/RouthKiranBabu/Masai-School-Journey/blob/main/Lectures/Selenium/Session%2025%20-%20Selenium%20with%20Java%20%20Locators%20-%20XPath%20Axes%20%20SelectorsHub%20%202024%20New%20series/groart/imgif/LocatingElement.pdf)
+
+
 # Coding Section
 ```javascript
 /*Create a Maven Project in pom file attact:
