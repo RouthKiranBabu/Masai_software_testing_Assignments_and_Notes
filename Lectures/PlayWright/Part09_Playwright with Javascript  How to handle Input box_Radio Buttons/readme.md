@@ -3,6 +3,22 @@
   <summary>//a[starts-with(@class, 'nav') and contains(text(), 'Log in')]/parent::li</summary>
 <img alt="Image" src="./imgif/01_loginXpath.png"> </img>
 </details>
+<details>
+  <summary>(//input[contains(@id, 'log')])[1]</summary>
+<img alt="Image" src="./imgif/02_loginUsername.png"> </img>
+</details>
+<details>
+  <summary>(//input[contains(@id, 'log')])[2]</summary>
+<img alt="Image" src="./imgif/03_loginPassword.png"> </img>
+</details>
+<details>
+  <summary>(//div[@class='left-align']/descendant::input)[1]</summary>
+<img alt="Image" src="./imgif/04_radio.png"> </img>
+</details>
+<details>
+  <summary>(//div[@class='left-align']/descendant::input)[2]</summary>
+<img alt="Image" src="./imgif/05_radio2.png"> </img>
+</details>
 
 # Code
 <div align=right>
