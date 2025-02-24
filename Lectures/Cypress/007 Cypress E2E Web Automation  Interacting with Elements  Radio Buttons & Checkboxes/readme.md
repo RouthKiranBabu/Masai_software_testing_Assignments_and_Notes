@@ -67,3 +67,5 @@ describe('Checking Check Boxes', () => {
     });
 });
 ```
+# Automation
+ <img alt = "Image" src = "./imgif/automation.gif" width=100%></img>
