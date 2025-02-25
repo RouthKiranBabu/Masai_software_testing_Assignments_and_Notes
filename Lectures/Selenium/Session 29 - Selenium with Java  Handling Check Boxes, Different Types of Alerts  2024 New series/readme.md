@@ -1,4 +1,8 @@
-# Locators Used
+# Pre-requisites
+## Website Used
+ - [Website1](https://rahulshettyacademy.com/AutomationPractice/)
+ - [Website2](https://the-internet.herokuapp.com/javascript_alerts)
+## Locator Used
 <details>
   <summary>(//div[starts-with(@id, 'check')]/descendant::input)[1]</summary>
 
