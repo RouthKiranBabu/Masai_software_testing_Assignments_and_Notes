@@ -16,7 +16,7 @@
 </details>
 
 # Code
-## Interaction with CheckBox
+## Interaction with Check Boxes
 ```javascript
 package Package;
 
@@ -145,7 +145,7 @@ Result: You clicked: Ok
 Result: You clicked: Cancel*/
 }
 ```
-# Interaction with Prompt Alert
+## Interaction with Prompt Alert
 ```javascript
 package Package;
 
