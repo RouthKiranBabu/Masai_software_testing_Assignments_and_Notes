@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR;
-a[Watch YouTube]-->b[Write Github readme];
+a[Watch Masai Lecture/YouTube]-->b[Write Github readme];
 a --> c[Shadow the video];
 b --> d[Save in Github];
 c --> d;
