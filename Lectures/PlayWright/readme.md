@@ -70,7 +70,7 @@ second foot note[^2]
 | Day Number | Tasks | Branch Link |
 | :---: | :--- | ---: |
 | `1` | Cypress Setup, [Learning Readme editing.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github#introduction), [Learning Git Commands.](https://github.com/RouthKiranBabu/Reddit-API-Testing/tree/day_4?tab=readme-ov-file#git-commands) | [Day 1](https://github.com/RouthKiranBabu/testReddit/tree/day_1) |
-| `2` | [Cypress Code](https://github.com/RouthKiranBabu/CWP_B39/tree/day_2/Cypress/cypress/e2e), [Learning Readme editing.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github#introduction), Learning Git Commands. | [Day 2]
+| `2` | FirstLine.</br>SecondLine. | [Day 2]
 </div>
 
 <details>
