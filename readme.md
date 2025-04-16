@@ -1,3 +1,10 @@
+# Process of learning:
+ - For Practicing: Use Chrome in the mobile which has the feature where set of webpages group together and can be named as tool.
+ - Steps:
+    - Tool must have: Its defination, Key features, Importance question asked in the interview and roadmap for being expert in tool divided by stages where each stage is stored in one pdf.
+    - Remember the defination,  key features and revise the interview question, look into code(Make sure revision must be faster).
+    - Make, Uplaad to github and Learn.
+
 # JavaScript Notes contains Git command
 https://iris-asiago-40a.notion.site/Notes-for-JS101-8d93e1c22b7a4934b8a470c2cc91e031
 # Java Notes:
