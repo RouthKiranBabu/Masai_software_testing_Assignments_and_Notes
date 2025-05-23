@@ -22,9 +22,19 @@
  - Must have good comments in app store.
  - Eye catching advertisements must be realistic in pratical look in food.
 
-## Sample Test Plans
+## STLC phases involved in testing this product(during Version: 18.9.3, Size: 83.7 MB and Tested Date: 23-May-2025)
+#### Requirement Analysis
+ - **On reviews on Google Play Store** Find and Fix the errors.
+ - **Updates on Whatsapp** Both work and updates must be hand in hand.
+ - **On time/Cash In Hand Delivery**.
+#### Test Planning
+ - **Scope**: With less customer affort, delicious food on door steps on time.
+
+
+
 <div align="center">
-  
+
+
 | **`Functional Requirements`** | **`Non-functional Requirements`** |
 |--:|:--|
 ||second|
