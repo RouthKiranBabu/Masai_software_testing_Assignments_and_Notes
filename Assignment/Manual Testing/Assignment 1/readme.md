@@ -24,18 +24,8 @@
 
 ## STLC phases involved in testing this product(during Version: 18.9.3, Size: 83.7 MB and Tested Date: 23-May-2025)
 #### Requirement Analysis
- - **On reviews on Google Play Store** Find and Fix the errors.
- - **Updates on Whatsapp** Both work and updates must be hand in hand.
- - **On time/Cash In Hand Delivery**.
+ - **On reviews on Google Play Store** Find and Fix the negative reviews.
+ - **Updates on Whatsapp** Whatsapp as a medium does show accurate response to the end customers.
+ - **On time/Cash In Hand Delivery** options.
 #### Test Planning
- - **Scope**: With less customer affort, delicious food on door steps on time.
-
-
-
-<div align="center">
-
-
-| **`Functional Requirements`** | **`Non-functional Requirements`** |
-|--:|:--|
-||second|
-<div>
+ - **Scope**: 
