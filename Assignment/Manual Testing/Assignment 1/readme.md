@@ -28,4 +28,10 @@
  - **Updates on Whatsapp** Whatsapp as a medium does show accurate response to the end customers.
  - **On time/Cash In Hand Delivery** options.
 #### Test Planning
- - **Scope**: 
+ - **Scope**: Users can turn off location during using of app. OTP verification is within 20 seconds.
+
+## Functionalities Checked
+1. OTP(One Time Password): Used during varification of the user using mobile number during the first opening the app.
+2. Location Access: User has the right to turn it off while using the app.
+
+### Checkout the testcases by downloading it 👉 [click here](https://github.com/RouthKiranBabu/Masai-School-Journey/blob/main/Assignment/Manual%20Testing/Assignment%201/Zomato%20Test%20Cases%20and%20Scenarios.xlsx).
