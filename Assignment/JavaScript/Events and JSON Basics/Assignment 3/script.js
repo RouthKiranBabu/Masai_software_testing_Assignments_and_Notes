@@ -1,0 +1,18 @@
+const person = {
+  name: "Alice",
+  age: 20,
+  subjects: ["Math", "Science", "History"]
+};
+
+const stringified = JSON.stringify(person);
+const parsed = JSON.parse(stringified);
+
+const name = parsed.name;
+const subjects = parsed.subjects.join(", ");
+
+console.log(`Name: ${name}.\n\nSubjects: ${subjects}.`)
+/*Expected Output:
+Name: Alice.
+
+Subjects: Math, Science, History.
+*/ 

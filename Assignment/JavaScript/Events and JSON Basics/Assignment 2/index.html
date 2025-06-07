@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<style>
+    #divtag{
+        width: 200px; height: 100px;
+        background-color: orange;
+        border-radius: 10px;
+        display: block; margin: auto;
+        text-align: center;
+        /* makes text center of height */
+        line-height: 90px;
+    }
+</style>
+
+<body>
+    <div id = "divtag">Hover to Change Color!</div>
+    <!-- Script tag is inside the body to change the background -->
+    <script>
+        const div = document.getElementById("divtag")
+        div.addEventListener("mouseover", function(){
+            div.style.backgroundColor = "lightblue"
+        })
+        div.addEventListener("mouseout", function(){
+            div.style.backgroundColor = "orange"
+        })
+    </script>
+</body>
+</html>
