@@ -1,0 +1,28 @@
+Requirement ID,Requirement Description,Test Case ID,Test Case Description,Pre-Conditions,Test Steps,Test Data,Actual Result,Excepted Result,Remark,Priority,Status,Your Review
+RQ_001,Environment Setup.,TC_001,User Must Able to Open the Login Page.,"1. Good Internet Supply.
+2. Chrome Browser.
+3. Laptop/PC in good condition.","1. Open the Chrome Browser.
+2. Search/Enter the URL.
+3. Wait to Load.",1. URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,User opens the Login Page.,User opens the Login Page.,"Becouse of poor internet, loading a page takes time.",High,Pass,★★★★★
+RQ_002,RQ_001 status must be Pass. User must able to Login With Valid Credentials.,TC_002,TC_001 status must be Pass and User Gets Logged in With valid Credentials.,1. RQ_001 status must be pass.,"1. Fallow RQ_001Test Steps.
+2. Enter Username.
+3. Enter Password.
+4. Click on the Login Button.","1. URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. Username: Admin
+3. Password: admin123",User logs in Successfully.,User logs in Successfully.,Website already shows the Corrent Username and Password to let logged in.,High,Pass,★★★★★
+RQ_003,RQ_002 status must be Pass. User can Scan the QR Code and transfer the money.,TC_003,TC_002 status must be Pass and User Scans and sends Money.,1. RQ_002 status must be Pass.,"1. Fallow RQ_002Test Steps.
+2. Turn on the Laptop/PC Camera.
+3. Show it the Code.
+4. Wait for Successful scan.
+5. Enter valid Credentials like Amount to send, mpin, etc.
+6. Click the Send button.",1. Fallow Test Data of RQ_002.,User Can Transfer money after successful Login.,User Can Transfer money after successful Login.,This is used Most Often or Primary purpose.,High,Pass,★★★★★
+RQ_004,RQ_002 status must be Pass. User can Check Balance.,TC_004,TC_002 status must be Pass and User an Check Bank Balance.,1.  RQ_002 status must be Pass and/or RQ_003 status must be Pass.,"1. Fallow RQ_002Test Steps.
+2. Go to the Check Balance Section.",1. Fallow Test Data of RQ_002.,User can View History of Transactions done Yearly/Monthly/Weekly.,User can View History of Transactions done Yearly/Monthly/Weekly.,This is used Most Often or Primary purpose.,High,Pass,★★★★☆
+RQ_005,RQ_002 status must be Pass. User can Change Password.,TC_005,TC_002 status must be Pass and OTP/Email varification to change password.,1.  RQ_002 status must be Pass.,"1. Fallow RQ_002Test Steps.
+2. Go to the Change password Section.
+3. Enter Old Password, New Password, Confirm Password.
+4. Enter Capcha.
+5. Click Send OTP request.
+6. Wait to get OTP.
+7. Enter OTP.
+8. Click Chage Password Button.",1. Fallow Test Data of RQ_002.,User can Able to Change Password.,User can Able to Change Password.,This is used Weekly/Monthly/Yearly.,Medium,Pass,★★★★★
