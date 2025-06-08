@@ -1,0 +1,70 @@
+#container1{
+    border: 5px solid red;
+    /* margin: gap between border and outer element. */
+    margin: 50px;
+}
+#container2{
+    border: 5px solid blue;
+    /* 50px: for top
+    first 100px: for right
+    60px: for bottom
+    second 100px: for left */
+    margin: 50px 100px 60px 100px;
+}
+#container3{
+    border: 5px solid orange;
+}
+#headbox{
+    border: 5px solid red;
+    text-align: center;
+}
+#imgbox{
+    border: 5px solid yellow;
+    /* Making inner element side by side */
+    display: flex;
+    /* provides gap between of sub elements */
+    gap: 70px;
+    /* Making borders not to be sharp */
+    border-radius: 50px;
+}
+.imgbox1{
+    border: 5px solid green;
+    text-align: center;
+    /* Making borders not to be sharp */
+    border-radius: 50px;
+    padding: 5px;
+    /* To add shadow to the images */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+}
+.paytmclass{
+    width: 23%;
+}
+.imgbox1 > img{
+     border-radius: 50px;
+}
+
+.imgbox1 > h4, .imgbox1 > p{
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px;
+}
+
+#para{
+    /* Provides gap between paragraph lines */
+    line-height: 40px;
+    /* provides space between characters */
+    /* letter-spacing: 5px; */
+    font-size: 20px;
+}
+
+/* To add the font style
+search > google fonts
+select font
+click get font
+click embaded code
+copy Embed code in the <head> of your html > html head
+copy Dancing Script: CSS class for a variable style > css file*/
+#para {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

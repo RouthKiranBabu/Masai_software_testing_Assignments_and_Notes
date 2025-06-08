@@ -1,0 +1,64 @@
+#changemode{
+    /* sends button to right */
+    float: right;
+    border-radius: 5px;
+    /* button color will be orange */
+    background-color: orange;
+    /* text on button will be black */
+    color: black;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 12px 23px;
+}
+
+body{
+    /* Body color is white */
+    background-color: white;
+}
+#form{
+    color: black;
+    border: 5px solid;
+    width: 500px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 0px 500px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 12px 23px;
+}
+#form h2{
+    text-align: center;
+    text-shadow: rgb(20, 155, 201) 0px 12px 10px;
+    background-color: cyan;
+    height: 30px;
+}
+#form label{
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+}
+
+/* Name of the class is provided by the google fonts 
+where ever you add this class its makes it fonts style */
+.wdxl-lubrifont-tc-regular {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#submit{
+    text-align: center;
+}
+#submit input{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#showshere{
+    text-align: center; 
+    /* Gap between form and result text */
+    padding: 70px;
+    color: Orange;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: rgba(3, 231, 235, 0.5) 0px 20px 30px;
+}

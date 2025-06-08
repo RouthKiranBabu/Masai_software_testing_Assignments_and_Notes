@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* span does not create or take space it is inline level tag */
+        span{
+            color: red;
+            background-color: bisque;
+            /* width and height does not effect the inline level tags */
+            width: 500px;
+            height: 500px;
+        }
+        h1{
+            width: 500px;
+            height: 500px;
+            background-color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem <span>ipsum</span> dolor sit amet consectetur adipisicing elit. Harum itaque porro sapiente beatae. Aspernatur maxime
+        necessitatibus dolorem eius adipisci voluptate similique ipsam, laborum quos. Dolorum molestiae reiciendis
+        architecto beatae vero.
+        <!-- does not get created in new line -->
+        <span>Hello</span>
+        <h1>H1 heading</h1>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            background-color: aqua;
+        }
+        /* decendent ( )
+        container id having the child h1 which does not have any id etc. */
+        #container h1, h2{
+            color: orange;
+        }
+
+        /* Child(>)*/
+         #container > h3 {
+            color: blue;
+         }
+         #container > div > h4 {
+            color: red;
+         }
+
+         /* sibling (~) */
+         h5 ~ h6 {
+            color: white;
+         }
+
+         /* Adjacent sibling (+) where h1 and h5 is nearer and sibling
+         01:27:03 */
+         h1 + h5{
+            color: brown;
+            font-size: 40px;
+            font-family: Arial, sans-serif;
+         }
+    </style>
+</head>
+<body>
+    <!-- type dividvalue and enter to 
+     create 
+     <div id="idvalue"></div> -->
+     <div id="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ipsum.</h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h5>Lorem, ipsum dolor.</h5>
+        <div>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+        </div>
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h6>Lorem, ipsum.</h6>
+        <h1>this is heading one</h1>
+        <h5>this is heading five</h5>
+     </div>
+</body>
+</html>

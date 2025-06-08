@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex position</title>
+    <style>
+        #container{
+            border: 5px dotted;
+            width: 500px;
+            height: 500px;
+            background-color: violet;
+            /* This makes child elements to have as columns */
+            display: flex;
+            /* you can make as column or row 
+            row for making column
+            column to make row or block level
+            row-reverse makes elements to stay in opposite direction of row
+            column-reverse makes elements to stay opposite to column*/
+            flex-direction: row-reverse;
+
+            /* easiest way to provide gap between them is gap */
+            /* gap: 20px; */
+
+            /* center: content at center without gap
+            right: at right, left: content at left 
+            space-between: left and right content touches the 
+            border and between element having same gap.
+            space-around: similar to space-between but here 
+            add gap from border to the left and right most element.
+            space-evenly: space between the border to the 
+            left and right most element are same as gap between
+            elements.*/
+            justify-content: space-around;
+        }
+        .child-1{
+            border: 5px solid yellow;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="child-1">child-1</div>
+        <div class="child-1">child-2</div>
+        <div class="child-1">child-3</div>
+    </div>
+</body>
+</html>

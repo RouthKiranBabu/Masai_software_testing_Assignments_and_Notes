@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container > img{
+            width: 300px;
+        }
+        #container{
+            position:relative;
+            border: 5px solid;
+            /* making the height larger to scroll the page */
+            height: 1000px;
+        }
+        .img-3{
+            position: absolute;
+            /* top 100px from the container which is relative
+            left of 200px from the left of container*/
+            top: 100px;
+            left: 400px;
+        }
+        .img-4{
+            /* making the forth image to have fixed position to stop moving
+            while scrolling distance from top is 300px 
+            this can cross the container border*/
+            position: fixed;
+            top: 500px;
+            left: 500px;
+        }
+        .img-5{
+            /* This image does not cross the container border */
+            position: sticky;
+            top: 500px;
+            left: 800px;
+        }
+        #newcontainer{
+            height: 1000px;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="./soldiers.jpg" alt="img1" class="img-1">
+        <img src="./soldiers.jpg" alt="img2" class="img-2">
+        <img src="./soldiers.jpg" alt="img3" class="img-3">
+        <img src="./soldiers.jpg" alt="img4" class="img-4">
+        <img src="./soldiers.jpg" alt="img5" class="img-5">
+    </div>
+    <div id="newcontainer">
+        
+    </div>
+</body>
+</html>

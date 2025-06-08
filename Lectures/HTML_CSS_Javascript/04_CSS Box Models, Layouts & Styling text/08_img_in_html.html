@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 5px solid;
+            width: 500px;
+            height: 250px;
+            /* but the images repeat itself
+            thats becouse back */
+            background-image: url("./soldiers.jpg");
+            /* four values repeat-x for in x direction
+            repeat-y for repeating in y direction
+            no repeat for no repetition
+            repeat: repeated for both vertically and horizontally */
+            /* background-repeat: repeat-x; */
+
+            /*background-size controls the size of the background
+            auto: default, display in original size
+            cover: resized to cover the container
+            contain: resized the image to ensure it is fully visible*/
+            background-size: contain;
+        }
+        #container2{
+            border: 5px solid;
+            width: 500px;
+            height: 250px;
+            background-image: url("./soldiers.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="container2"></div>
+</body>
+</html>

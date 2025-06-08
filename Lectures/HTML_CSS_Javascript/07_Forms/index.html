@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✅ Assignment 2: HTML/CSS Based Web Form + Manual Testing Scenarios</title>
+    
+    <!-- 
+    1. './style.css' is the location where the css file exist.
+        helps in providing link so the code does not looks complex.
+      -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Go it from the google fonts to style the letters in page -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+
+    <!-- For Dark Mode -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dark_mode" />
+</head>
+<script>
+    function changeMode(){
+        // Getting elements by id value for modifying
+        const body = document.getElementById("_body");
+        const formcolor = document.getElementById("form");
+        const text = document.getElementById("changemode");
+        /*The below code toggles the style for
+        1. Background of body [white <-> black]
+        2. Text color in the form [white <-> black]
+        3. Text on button between [Light mode <-> dark mode]*/ 
+        if (body.style.backgroundColor === "white"){
+            body.style.backgroundColor = "black";
+            formcolor.style.color = "white";
+            text.innerText = "Light Mode";
+        }
+        else{
+            body.style.backgroundColor = "white";
+            formcolor.style.color = "black";
+            text.innerText = "Dark Mode";
+        }
+    }
+
+    // This code need to be remembered only need to check which id to provide and what function to be called
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("form").addEventListener("submit", showresponse);
+    });
+    function showresponse(event) {
+        // prevents fast auto hidding
+        event.preventDefault();
+        // Gets, trim and save values in variable using id
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        let radios = document.getElementsByName('radios');
+        // To store value that is checked from the list of elements having same name 'radios'
+        let selected_gender = '';
+        for (let i = 0; i < radios.length; i++) {
+            if (radios[i].checked) {
+                // The below code takes the values from eg: value="[MALE]"
+                selected_gender = radios[i].value;
+                // Once we get the check value and stored in the variable need to break the for loop
+                break;
+            }
+        }
+        const selectedcountry = document.getElementById("selectedcountry").value;
+        const showshere = document.getElementById("showshere");
+        const response = `Name: ${name}, Email: ${email}, Gender: ${selected_gender},
+        Country: ${selectedcountry} has been Provided✅`;
+        showshere.textContent = response;
+        // Closes after few seconds
+        setTimeout(()=>{
+            showshere.textContent = "";
+        }, 7000)
+    }
+</script>
+
+<body id = "_body">
+    <!-- Calls the changeMode function in the script tab -->
+     <div>
+        <button onclick="changeMode()" id = "changemode">Dark Mode</button>
+    </div>
+    
+    <form id = "form" action="">
+        <!-- Add class="wdxl-lubrifont-tc-regular"
+         To look Text nicer eg: Name, Email, etc-->
+        <h2 class="wdxl-lubrifont-tc-regular">Registration Form</h2>
+        <!-- Wherever class="wdxl-lubrifont-tc-regular"
+             is added its makes into google fonts. -->
+        <label class="wdxl-lubrifont-tc-regular" for="">Name👉</label>
+        <!-- 
+         1. Required: To make sure user provides input(must).
+         2. id is provided to take values in javascript like
+            const name = document.getElementById('name').value.trim(); 
+         3. type="text": meaning user providing values is taken as text.-->
+        <input id = "name" type="text" required>
+
+        <!-- br is provided to break the line or to move to next line -->
+        <br><br>
+        <!-- 
+        1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts.  -->
+        <label class="wdxl-lubrifont-tc-regular" for="">Email📧</label>
+        <!-- 
+        1. id = "email": For taking values in script like:
+           const email = document.getElementById('email').value.trim();
+        2. type="email": To take values from user in form of type email becouse 
+           this reason it tells to provide @ or *@* format.
+        3. Required: To make sure user provides input(must).-->
+        <input id = "email" type="email" required>
+
+        <!-- br is provided to break the line or to move to next line -->
+        <br><br>
+        <!-- 
+        1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts.  -->
+        <label class="wdxl-lubrifont-tc-regular" for="">Password🧑‍💻</label>
+        <!-- 
+        1. type="password": so input provided is in the form of dotted values.
+        3. Required: To make sure user provides input(must).-->
+        <input type="password" required>
+
+        <!-- br is provided to break the line or to move to next line -->
+        <br><br>
+        <!-- 
+        1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts.  -->
+        <label class="wdxl-lubrifont-tc-regular" for="">Gender<br>
+            <!-- style="padding: 0px 0px 0px 20px;"
+             padding is the distance from border to the outer content.
+             first 0px for top distance, next for left, then down, then
+             20 px for left.
+             So need to move the radio section to little bit right side -->
+            <div style="padding: 0px 0px 0px 20px;">
+                <!-- 
+                1. name="radios": This is present in multiple elements 
+                   to get all the elements.
+                   let radios = document.getElementsByName('radios');
+                2. value="[MALE]": For returning [MALE] value.
+                   Example to understand: 
+                        Step1: Use for loop to iterate all the elements by name 'radios'
+                            for (let i = 0; i < radios.length; i++) {
+                        Step2: Check if the element is checked
+                                if (radios[i].checked) {
+                                    // The below code takes the values from eg: value="[MALE]"
+                        Step3: Find and get value using index.
+                                    selected_gender = radios[i].value;
+                                    // Once we get the check value and stored in the variable need to break the for loop
+                                    break;
+                                }
+                            } 
+                    Finally from Step3: selected_gender = radios[i].value;
+                    That's how we get values/importance of providing 👉 value="[MALE]"
+                    so finally (selected_gender = MALE) if element is checked.
+                3. style="cursor: pointer;": Having score 1000 makes pointer to 👆 shape when hovering to below element
+                4. type="radio": This type makes input to the radio. -->
+                ♂️ Male<input name="radios" value="[MALE]" style="cursor: pointer;" type="radio">
+                <!-- checked: for checking this radio before hand/bydefault setup -->
+                ♀️ Female<input name="radios" value="[FEMALE]" style="cursor: pointer;" type="radio" checked>
+            </div>
+        </label>
+        
+        <br>
+        <!-- 
+        1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts.  -->
+        <label class="wdxl-lubrifont-tc-regular" for="">Country🚩</label>
+        <!-- 
+        1. select: for selecting any one from the option by default value is India at beginning.
+        2. id="selectedcountry": It is used to make sure script takes value by using below code
+           const selectedcountry = document.getElementById("selectedcountry").value; -->
+        <select name="" id="selectedcountry">
+            <!-- value="INDIA": India value is stored in variable 'selectedcountry' 
+             if India is selected -->
+            <option value="INDIA">India</option>
+            <option value="RUSSIA">Russia</option>
+            <option value="AFRICA">Africa</option>
+            <option value="JAPAN">Japan</option>
+            <option value="CHINA">China</option>
+            <option value="OTHERS">Others</option>
+        </select>
+
+        <br><br>
+        <!-- 
+        1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts.  -->
+        <label class="wdxl-lubrifont-tc-regular" for="">
+            <!-- 
+            1. style="cursor: pointer;": For making mouse arrow to look like 👆 making user it is on the element
+            2. type="checkbox": Makes into checkbox type input.-->
+            <input style="cursor: pointer;" type="checkbox">Accept Terms
+        </label>
+
+        <br><br><br>
+        <!-- Since div is block type element so made the text align to center
+            #submit{
+                text-align: center;
+            } -->
+        <div id="submit">
+            <!-- 
+            1. class="wdxl-lubrifont-tc-regular": for styling the text. Using google fonts. 
+            2. type="submit": Is another type of input. Behaves as button without button tag. -->
+            <input class="wdxl-lubrifont-tc-regular" type="submit">
+        </div>
+    </form>
+    
+    <!-- id="showshere": Is used for script to change the text.
+        is also used in css to arange the element in correct position.
+
+        In Javascript:
+        --------------
+        // Get the element
+        const showshere = document.getElementById("showshere");
+        
+        const response = `Name: ${name}, Email: ${email}, Gender: ${selected_gender},Country: ${selectedcountry} has been Provided✅`;
+        
+        // Store the value
+        showshere.textContent = response;
+        
+        // Clear the element after timeout
+        setTimeout(()=>{
+            showshere.textContent = "";
+        }, 7000)
+
+        In CSS:
+        -------
+        text-align: center: made text to align center. 
+        padding: 100px: meaning gap between form and div tag
+        #showshere{
+            text-align: center; padding: 100px;  
+        }
+    -->
+    <div class="wdxl-lubrifont-tc-regular" id="showshere"></div>
+</body>
+</html>
