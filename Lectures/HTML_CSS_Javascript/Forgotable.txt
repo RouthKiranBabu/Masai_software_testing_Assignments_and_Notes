@@ -1,9 +1,0 @@
-01
-    tags for making bold, italic, etc.
-02
-    03: ul, li tags 
-    04: table, thead, tbody, tfoot, tr, td
-    06: form, labels, input type, textarea
-03
-    02: justify, text-decoration
-    04: space, >, ~, + in css
