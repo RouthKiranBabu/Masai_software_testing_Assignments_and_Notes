@@ -65,6 +65,7 @@ Write -> in -> Steps.java
 
 Inside the testRunner -> Create Class -> TestRun.java
 Write -> in -> TestRun.java
+If you face error line over '@RunWith(Cucumber.class)' Hover over it and select first option
 
 refresh the project -> In the target Folder -> Open the htmlreport.html
 ->  Open with System Editor
