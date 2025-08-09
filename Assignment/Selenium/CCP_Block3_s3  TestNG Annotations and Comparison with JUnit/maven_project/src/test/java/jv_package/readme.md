@@ -1,4 +1,4 @@
-# Output
+# Output[Wait for few Seconds to get GIF]
 <div align = 'center'>
   <img width = 70% src = './Output.gif'/>
 </div>
