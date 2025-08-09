@@ -1,4 +1,4 @@
-# Output[Wait for few Seconds to get GIF]
+# Output[Wait for few Seconds/Minutes to get GIF]
 <div align = 'center'>
   <img width = 70% src = './Output.gif'/>
 </div>
