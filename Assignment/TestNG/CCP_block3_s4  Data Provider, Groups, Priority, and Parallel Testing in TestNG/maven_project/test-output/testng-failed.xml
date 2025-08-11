@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="env_setup"/>
+        <include name="automate"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="java_package.groups_priority">
+        <methods>
+          <include name="radiobtn"/>
+          <include name="get_up"/>
+          <include name="close_up"/>
+          <include name="checkbox"/>
+        </methods>
+      </class> <!-- java_package.groups_priority -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testng_suite] -->
