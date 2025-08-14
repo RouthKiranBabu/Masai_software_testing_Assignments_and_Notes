@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="extent_report_suite">
+	<groups>
+		<run>
+		<!-- Exits, Print_Laptop, Search, Setup, All_test_cases-->
+			<include name="All_test_cases"/>
+			<!-- <include name="Search"/>
+			<include name="Print_Laptop"/>
+			<include name="Exits"/>-->
+		</run>
+	</groups>
+
+  <test thread-count="5" name="Test">
+  	<parameter name="os" value="Windows"/>
+  	<parameter name="browser" value="Chrome"/>
+  	
+    <classes>
+      <class name="java_package.extent_reports_assertions_in_testNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- extent_report_suite -->

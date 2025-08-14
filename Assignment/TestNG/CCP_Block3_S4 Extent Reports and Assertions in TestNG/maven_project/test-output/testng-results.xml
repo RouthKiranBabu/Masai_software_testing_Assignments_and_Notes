@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-14T14:41:08 IST" name="extent_report_suite" finished-at="2025-08-14T14:41:21 IST" duration-ms="13006">
+    <groups>
+      <group name="All_test_cases">
+        <method signature="extent_reports_assertions_in_testNG.get_info()[pri:3, instance:java_package.extent_reports_assertions_in_testNG@6913c1fb]" name="get_info" class="java_package.extent_reports_assertions_in_testNG"/>
+      </group> <!-- All_test_cases -->
+      <group name="Print_Laptop">
+        <method signature="extent_reports_assertions_in_testNG.get_info()[pri:3, instance:java_package.extent_reports_assertions_in_testNG@6913c1fb]" name="get_info" class="java_package.extent_reports_assertions_in_testNG"/>
+      </group> <!-- Print_Laptop -->
+    </groups>
+    <test started-at="2025-08-14T14:41:08 IST" name="Test" finished-at="2025-08-14T14:41:21 IST" duration-ms="13006">
+      <class name="java_package.extent_reports_assertions_in_testNG">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:java_package.extent_reports_assertions_in_testNG@6913c1fb]" started-at="2025-08-14T14:41:08 IST" name="setup" finished-at="2025-08-14T14:41:20 IST" duration-ms="11697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35835e65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="get_info()[pri:3, instance:java_package.extent_reports_assertions_in_testNG@6913c1fb]" started-at="2025-08-14T14:41:20 IST" name="get_info" finished-at="2025-08-14T14:41:21 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_info -->
+        <test-method is-config="true" signature="close_up()[pri:0, instance:java_package.extent_reports_assertions_in_testNG@6913c1fb]" started-at="2025-08-14T14:41:21 IST" name="close_up" finished-at="2025-08-14T14:41:21 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_up -->
+      </class> <!-- java_package.extent_reports_assertions_in_testNG -->
+    </test> <!-- Test -->
+  </suite> <!-- extent_report_suite -->
+</testng-results>
