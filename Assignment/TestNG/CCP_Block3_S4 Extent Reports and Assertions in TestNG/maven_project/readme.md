@@ -5,7 +5,7 @@
     - com.aventstack, extentreports, 5.1.2
     - commons-io, commons-io, 2.15.1
   - Follow the folder and code structure as it is shown in maven project
-  - In testng.xml, Right click on file then Run As TestNG Suite
+  - In testng.xml, Right click on file then 👉 Run As TestNG Suite
 # 🔨 Tools and Libraries
  - Automation tool: Selenium
  - Libraries: TestNG
@@ -13,4 +13,5 @@
 # Report Images
 <img src = "./Report_img/part1.png"/>
 <img src = "./Report_img/part2.png"/>
+
 
